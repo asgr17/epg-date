@@ -28,7 +28,7 @@ jobs:
         run: npm run grab --- --site=vidio.com
 
       # Update Channel List
-      # Pastikan path config bersih dari link biru/kurung
+      # Pastikan path config di bawah ini bersih (tidak biru)
       - name: Update Channel List
         run: npm run channels:parse --- --config=./sites/[vidio.com/vidio.com.config.js](https://vidio.com/vidio.com.config.js) --output=./sites/[vidio.com/vidio.com.channels.xml](https://vidio.com/vidio.com.channels.xml)
 
