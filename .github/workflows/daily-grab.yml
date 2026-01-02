@@ -2,14 +2,14 @@ name: Update EPG Vidio
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Jalan jam 07:00 WIB
+    - cron: '0 0 * * *' # 07:00 WIB
   workflow_dispatch:
 
 jobs:
   grab-epg:
     runs-on: ubuntu-latest
     permissions:
-      contents: write 
+      contents: write
 
     steps:
       - name: Checkout Repository
@@ -18,23 +18,24 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '22' # Versi terbaru sesuai requirement script
+          node-version: '22'
 
       - name: Install Dependencies
         run: npm install
 
-      # Karena ini hasil Fork lengkap, kita tidak perlu takut folder scripts hilang
       - name: Grab EPG
         run: npm run grab -- --site=vidio.com
 
-      # Update Channel List
-      # Pastikan path config di bawah ini bersih (tidak biru) dan menggunakan tanda --
       - name: Update Channel List
-        run: npm run channels:parse -- --config=./sites/[vidio.com/vidio.com.config.js](https://vidio.com/vidio.com.config.js) --output=./sites/[vidio.com/vidio.com.channels.xml](https://vidio.com/vidio.com.channels.xml)
+        run: |
+          npm run channels:parse -- \
+            --config=./sites/vidio.com/vidio.com.config.js \
+            --output=./sites/vidio.com/vidio.com.channels.xml
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name 'GitHub Action Bot'
-          git config --global user.email 'action@github.com'
-          git add sites/[vidio.com/*.xml](https://vidio.com/*.xml)
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto Update EPG: $(date)" && git push)
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add sites/vidio.com/*.xml
+          git diff --cached --quiet || git commit -m "Auto Update EPG: $(date)"
+          git push
