@@ -25,12 +25,12 @@ jobs:
 
       # Karena ini hasil Fork lengkap, kita tidak perlu takut folder scripts hilang
       - name: Grab EPG
-        run: npm run grab --- --site=vidio.com
+        run: npm run grab -- --site=vidio.com
 
       # Update Channel List
-      # Pastikan path config di bawah ini bersih (tidak biru)
+      # Pastikan path config di bawah ini bersih (tidak biru) dan menggunakan tanda --
       - name: Update Channel List
-        run: npm run channels:parse --- --config=./sites/[vidio.com/vidio.com.config.js](https://vidio.com/vidio.com.config.js) --output=./sites/[vidio.com/vidio.com.channels.xml](https://vidio.com/vidio.com.channels.xml)
+        run: npm run channels:parse -- --config=./sites/[vidio.com/vidio.com.config.js](https://vidio.com/vidio.com.config.js) --output=./sites/[vidio.com/vidio.com.channels.xml](https://vidio.com/vidio.com.channels.xml)
 
       - name: Commit and Push changes
         run: |
