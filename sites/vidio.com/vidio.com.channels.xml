@@ -4,6 +4,7 @@
   <channel site="vidio.com" site_id="778" lang="id" xmltv_id="">GTV</channel>
   <channel site="vidio.com" site_id="870" lang="id" xmltv_id="">MNCTV</channel>
   <channel site="vidio.com" site_id="5409" lang="id" xmltv_id="">iNews</channel>
+  <channel site="vidio.com" site_id="7968" lang="id" xmltv_id="">NHK World Japan</channel>
   <channel site="vidio.com" site_id="8237" lang="id" xmltv_id="">Mentari TV</channel>
   <channel site="vidio.com" site_id="17875" lang="id" xmltv_id="">Bein 2</channel>
   <channel site="vidio.com" site_id="18105" lang="id" xmltv_id="">GGS TV</channel>
@@ -33,7 +34,6 @@
   <channel site="vidio.com" site_id="1561" lang="id" xmltv_id="RajawaliTV.id@SD">RTV</channel>
   <channel site="vidio.com" site_id="8121" lang="id" xmltv_id="ROCKExtreme.sg@SD">Rock Action</channel>
   <channel site="vidio.com" site_id="204" lang="id" xmltv_id="SCTV.id@SD">SCTV</channel>
-  <channel site="vidio.com" site_id="17140" lang="id" xmltv_id="SPOTV2.id@SD">SPOTV 2</channel>
   <channel site="vidio.com" site_id="17139" lang="id" xmltv_id="SPOTV.id@SD">SPOTV</channel>
   <channel site="vidio.com" site_id="734" lang="id" xmltv_id="Trans7.id@SD">Trans7</channel>
   <channel site="vidio.com" site_id="733" lang="id" xmltv_id="TransTV.id@SD">TRANS TV</channel>
