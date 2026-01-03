@@ -1,29 +1,45 @@
-name: Unifitv Malaysia
+name: Unifi grab
 
 on:
   schedule:
-    # Jam 7 pagi WIB = 00:00 UTC
+    # Jam 7 pagi WIB = 00:00 UTC (WIB = UTC+7)
     - cron: '0 0 * * *'
   workflow_dispatch:
+    # Memungkinkan menjalankan workflow secara manual
 
 jobs:
-  grab:
+  grab-combined-epg:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Install epg-grabber
-        run: npm install -g epg-grabber
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
 
-      - name: Run EPG Grabber
-        run: |
-          epg-grabber --config=unifi.com.my.ini --channels=unifi.com.my.channels.xml --output=unifitv_malaysia.xml --days=3
+      - name: Install Dependencies
+        run: npm ci
 
-      - name: Commit and push
+      - name: Grab Combined EPG
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          npm run grab -- \
+            --channels=sites/playtv.unifi.com.my/playtv.unifi.com.my.channels.xml \
+            --output=unifitv_malaysia.xml \
+            --days=3
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          
           git add unifitv_malaysia.xml
-          git diff --staged --quiet || git commit -m "Update EPG unifitv_malaysia.xml"
+          
+          # Hanya commit jika ada perubahan
+          git diff --cached --quiet || git commit -m "🔄 Auto Update Combined EPG: $(date '+%Y-%m-%d %H:%M UTC')"
           git push
