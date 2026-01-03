@@ -113,11 +113,11 @@
   <channel site="visionplus.id" site_id="00000000000000000119" lang="id" xmltv_id="spotv">SpoTV 1</channel>
   <channel site="visionplus.id" site_id="00000000000000000120" lang="id" xmltv_id="spotv2">SpoTV 2</channel>
   <channel site="visionplus.id" site_id="00000000000000000121" lang="id" xmltv_id="fightsports.id">Fight Sports</channel>
-  <channel site="visionplus.id" site_id="00000000000000000122" lang="id" xmltv_id="beinsports1">beIN SPORTS</channel>
-  <channel site="visionplus.id" site_id="00000000000000000123" lang="id" xmltv_id="beinsports2.id">beIN SPORTS 2</channel>
-  <channel site="visionplus.id" site_id="00000000000000000124" lang="id" xmltv_id="beinsports3.id">beIN SPORTS 3</channel>
-  <channel site="visionplus.id" site_id="00000000000000000125" lang="id" xmltv_id="beinsports4.id">beIN SPORTS 4</channel>
-  <channel site="visionplus.id" site_id="00000000000000000126" lang="id" xmltv_id="beinsports5.id">beIN SPORTS 5</channel>
+  <channel site="visionplus.id" site_id="00000000000000000122" lang="id" xmltv_id="bein1.id">beIN SPORTS</channel>
+  <channel site="visionplus.id" site_id="00000000000000000123" lang="id" xmltv_id="bein2.id">beIN SPORTS 2</channel>
+  <channel site="visionplus.id" site_id="00000000000000000124" lang="id" xmltv_id="bein3.id">beIN SPORTS 3</channel>
+  <channel site="visionplus.id" site_id="00000000000000000125" lang="id" xmltv_id="bein4.id">beIN SPORTS 4</channel>
+  <channel site="visionplus.id" site_id="00000000000000000126" lang="id" xmltv_id="bein5.id">beIN SPORTS 5</channel>
   <channel site="visionplus.id" site_id="00000000000000000130" lang="id" xmltv_id="bbcworldnews.id">BBC World news</channel>
   <channel site="visionplus.id" site_id="00000000000000000131" lang="id" xmltv_id="cnbcasia.id">CNBC Asia</channel>
   <channel site="visionplus.id" site_id="00000000000000000132" lang="id" xmltv_id="foxnews.id">FOX News</channel>
@@ -193,12 +193,11 @@
   <channel site="mewatch.sg" site_id="98202" lang="en" xmltv_id="mewatchlive5.sg">Me LIVE 5</channel>
   <channel site="mewatch.sg" site_id="204746" lang="en" xmltv_id="mewatchlive6.sg">Me LIVE 6</channel>
   <channel site="mewatch.sg" site_id="497989" lang="en" xmltv_id="mewatchlive7.sg">Me LIVE 7</channel>
-    <channel site="content.astro.com.my" site_id="48" lang="ms" xmltv_id="TV9.my@SD">TV9</channel>
-  <channel site="content.astro.com.my" site_id="67" lang="en" xmltv_id="AdithyaTV.in@SD">Adithya</channel>
-  <channel site="content.astro.com.my" site_id="91" lang="en" xmltv_id="AsianFoodNetwork.sg@SD">Asian Food Network HD</channel>
-  <channel site="content.astro.com.my" site_id="93" lang="ms" xmltv_id="NTV7.my@SD">NTV7</channel>
-  <channel site="content.astro.com.my" site_id="106" lang="ms" xmltv_id="tv3.my">TV3</channel>
+  <channel site="content.astro.com.my" site_id="93" lang="ms" xmltv_id="ntv7.my">NTV7</channel>
+  <channel site="epgshare01.online" site_id="MY1#TV3.my" lang="en" xmltv_id="tv3.my">TV3</channel>
+  <channel site="epgshare01.online" site_id="MY1#TV9.my" lang="en" xmltv_id="tv9.my">TV9</channel>
   <channel site="content.astro.com.my" site_id="115" lang="ms" xmltv_id="8tv.my">8TV</channel>
+  <channel site="epgshare01.online" site_id="MY1#TV.Sarawak.my" lang="en" xmltv_id="tvsarawak.my">TV Sarawak</channel>
   <channel site="content.astro.com.my" site_id="486" lang="ms" xmltv_id="astroarenabola.my">Arena Bola</channel>
   <channel site="content.astro.com.my" site_id="487" lang="ms" xmltv_id="astroarenabola2.my">Arena Bola 2</channel>
   <channel site="content.astro.com.my" site_id="536" lang="ms" xmltv_id="astropremierleague.my">Astro Premier League</channel>
