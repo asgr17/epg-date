@@ -18,7 +18,7 @@ jobs:
 
       - name: Run EPG Grabber
         run: |
-          epg-grabber --channels=combined.channels.xml --output=unifitv_malaysia.xml --days=3
+          epg-grabber --channels=unifi.com.my.channels.xml --output=unifitv_malaysia.xml --days=3
 
       - name: Commit and push guide.xml
         run: |
