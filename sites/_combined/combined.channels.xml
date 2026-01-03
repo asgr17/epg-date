@@ -2,10 +2,10 @@
 <channels>
   <channel site="vidio.com" site_id="204" lang="id" xmltv_id="sctv-vd">SCTV</channel>
   <channel site="vidio.com" site_id="205" lang="id" xmltv_id="indosiar-vd">Indosiar</channel>
-  <channel site="vidio.com" site_id="8237" lang="id" xmltv_id="mentari-vd">Mentari TV</channel>
-  <channel site="vidio.com" site_id="206" lang="id" xmltv_id="moji-vd">Moji</channel>
+  <channel site="vidio.com" site_id="8237" lang="id" xmltv_id="mentaritv">Mentari TV</channel>
+  <channel site="vidio.com" site_id="206" lang="id" xmltv_id="mojitv">Moji</channel>
   <channel site="vidio.com" site_id="6397" lang="id" xmltv_id="horee-vd">Horee</channel>
-  <channel site="vidio.com" site_id="19046" lang="id" xmltv_id="sinpotv-vd">Sin Po TV</channel>
+  <channel site="vidio.com" site_id="19046" lang="id" xmltv_id="sinpotv">Sin Po TV</channel>
   <channel site="vidio.com" site_id="665" lang="id" xmltv_id="rcti-vd">RCTI</channel>
   <channel site="vidio.com" site_id="778" lang="id" xmltv_id="gtv-vd">GTV</channel>
   <channel site="vidio.com" site_id="870" lang="id" xmltv_id="mnctv-vd">MNCTV</channel>
@@ -20,18 +20,30 @@
   <channel site="vidio.com" site_id="875" lang="id" xmltv_id="mdtv-vd">MDTV</channel>
   <channel site="vidio.com" site_id="1561" lang="id" xmltv_id="rtv-vd">RTV</channel>
   <channel site="vidio.com" site_id="5415" lang="id" xmltv_id="jaktv-vd">Jaktv</channel>
-  <channel site="vidio.com" site_id="18162" lang="id" xmltv_id="garuda-vd">Garuda TV</channel>
+  <channel site="vidio.com" site_id="18162" lang="id" xmltv_id="garudatv">Garuda TV</channel>
   <channel site="vidio.com" site_id="7464" lang="id" xmltv_id="ajwal-vd">AJWA TV</channel>
-  <channel site="vidio.com" site_id="18280" lang="id" xmltv_id="beritasatu-vd">Berita Satu</channel>
+  <channel site="vidio.com" site_id="18280" lang="id" xmltv_id="beritasatu">Berita Satu</channel>
   <channel site="vidio.com" site_id="6165" lang="id" xmltv_id="btv-vd">BTV</channel>
   <channel site="vidio.com" site_id="6482" lang="id" xmltv_id="daai-vd">DAAI TV</channel>
   <channel site="vidio.com" site_id="9713" lang="id" xmltv_id="jtv-vd">JTV</channel>
   <channel site="vidio.com" site_id="6852" lang="id" xmltv_id="makkah-vd">Makkah TV</channel> 
-  <channel site="vidio.com" site_id="7432" lang="id" xmltv_id="nusantara-vd">Nusantara TV</channel>
+  <channel site="vidio.com" site_id="7432" lang="id" xmltv_id="nusantaratv">Nusantara TV</channel>
   <channel site="vidio.com" site_id="6362" lang="id" xmltv_id="tvn-vd">TVN</channel>
   <channel site="vidio.com" site_id="6299" lang="id" xmltv_id="bein1-vd">Bein 1</channel>
   <channel site="vidio.com" site_id="17875" lang="id" xmltv_id="bein2-vd">Bein 2</channel>
   <channel site="vidio.com" site_id="6317" lang="id" xmltv_id="bein3-vd">Bein 3</channel>
+  <channel site="indihometv.com" site_id="cnbcindonesia" lang="id" xmltv_id="cnbcindonesia">CNBC Indonesia</channel>
+  <channel site="indihometv.com" site_id="cnnindonesia" lang="id" xmltv_id="cnnindonesia">CNN Indonesia</channel>
+  <channel site="indihometv.com" site_id="kplus" lang="id" xmltv_id="kplus.id">Kplus</channel>
+  <channel site="indihometv.com" site_id="hbo" lang="id" xmltv_id="hbo.id">HBO</channel>
+  <channel site="indihometv.com" site_id="hbofamily" lang="id" xmltv_id="hbofamily.id">HBO Family</channel>
+  <channel site="indihometv.com" site_id="hbosignature" lang="id" xmltv_id="hbosignature.id">HBO Signature</channel>
+  <channel site="indihometv.com" site_id="cinemax" lang="id" xmltv_id="cinemax.id">Cinemax</channel>
+  <channel site="indihometv.com" site_id="celestialmovies" lang="id" xmltv_id="celestialmovies.id">Celestial Movies</channel>
+  <channel site="indihometv.com" site_id="warner" lang="id" xmltv_id="warner.id">Warner</channel>
+  <channel site="indihometv.com" site_id="boomerang" lang="id" xmltv_id="cartoonito.id">Cartoonito</channel>
+  <channel site="indihometv.com" site_id="animalplanet" lang="id" xmltv_id="animalplanet.id">Animal Planet</channel>
+  <channel site="indihometv.com" site_id="mykids" lang="id" xmltv_id="mykidz.id">MyKidz</channel>
   <channel site="visionplus.id" site_id="00000000000000000001" lang="id" xmltv_id="rcti">RCTI</channel>
   <channel site="visionplus.id" site_id="00000000000000000002" lang="id" xmltv_id="mnctv">MNCTV</channel>
   <channel site="visionplus.id" site_id="00000000000000000003" lang="id" xmltv_id="gtv">GTV</channel>
@@ -73,7 +85,6 @@
   <channel site="visionplus.id" site_id="00000000000000000063" lang="id" xmltv_id="zoo_moo.id">Zoo Moo</channel>
   <channel site="visionplus.id" site_id="00000000000000000064" lang="id" xmltv_id="nick.id">Nick</channel>
   <channel site="visionplus.id" site_id="00000000000000000065" lang="id" xmltv_id="animax.id">Animax</channel>
-  <channel site="visionplus.id" site_id="00000000000000000066" lang="id" xmltv_id="mykidz.id">My Kidz</channel>
   <channel site="visionplus.id" site_id="00000000000000000067" lang="id" xmltv_id="dreamworks.id">Dream Works</channel>
   <channel site="visionplus.id" site_id="00000000000000000071" lang="id" xmltv_id="foodtravel.id">Food Travel</channel>
   <channel site="visionplus.id" site_id="00000000000000000072" lang="id" xmltv_id="entertainment.id">Entertainment</channel>
@@ -92,7 +103,7 @@
   <channel site="visionplus.id" site_id="00000000000000000093" lang="id" xmltv_id="rockaction.id">Rock Action</channel>
   <channel site="visionplus.id" site_id="00000000000000000095" lang="id" xmltv_id="crimeinvestigation.id">Crime Investigation</channel>
   <channel site="visionplus.id" site_id="00000000000000000101" lang="id" xmltv_id="outdoorchannel.id">Outdoor Channel</channel>
-  <channel site="visionplus.id" site_id="00000000000000000102" lang="id" xmltv_id="bbcearth.id">BBC Earth</channel>
+  <channel site="visionplus.id" site_id="00000000000000000102" lang="id" xmltv_id="bbcearthasia.id">BBC Earth</channel>
   <channel site="visionplus.id" site_id="00000000000000000103" lang="id" xmltv_id="globaltrekker.id">Global Trekker</channel>
   <channel site="visionplus.id" site_id="00000000000000000104" lang="id" xmltv_id="history.id">History</channel>
   <channel site="visionplus.id" site_id="00000000000000000105" lang="id" xmltv_id="lovenature.id">Love Nature</channel>
@@ -145,16 +156,7 @@
   <channel site="visionplus.id" site_id="00000000000000001012" lang="id" xmltv_id="sportstars3.id">V+ LIVE 3</channel>
   <channel site="visionplus.id" site_id="00000000000000001013" lang="id" xmltv_id="sportstars4.id">V+ LIVE 4</channel>
   <channel site="visionplus.id" site_id="00000000000000001014" lang="id" xmltv_id="vplus5.id">V+ LIVE 5</channel>
-  <channel site="firstmedia.com" site_id="305" lang="en" xmltv_id="hbo.id">HBO HD</channel>
-  <channel site="firstmedia.com" site_id="306" lang="en" xmltv_id="hbohits.id">HBO Hits HD</channel>
-  <channel site="firstmedia.com" site_id="307" lang="en" xmltv_id="hbofamily.id">HBO Family HD</channel>
-  <channel site="firstmedia.com" site_id="308" lang="en" xmltv_id="hbosignature.id">HBO Signature HD</channel>
-  <channel site="firstmedia.com" site_id="310" lang="en" xmltv_id="cinemax.id">Cinemax HD</channel>
-  <channel site="firstmedia.com" site_id="311" lang="en" xmltv_id="celestialmovies.id">Celestial Movies HD</channel>
-  <channel site="firstmedia.com" site_id="313" lang="en" xmltv_id="warner.id">Warner TV HD</channel>
-  <channel site="firstmedia.com" site_id="324" lang="en" xmltv_id="hitsnow.id">HITS Now HD</channel>
-  <channel site="firstmedia.com" site_id="325" lang="en" xmltv_id="hitmovies.id">Hits Movies HD</channel>
-  <channel site="firstmedia.com" site_id="326" lang="en" xmltv_id="hits.id">HITS HD</channel> 
+  <channel site="dens.tv" site_id="137" lang="id" xmltv_id="jowo.id">Jowo</channel>
   <channel site="rtmklik.rtm.gov.my" site_id="1" lang="ms" xmltv_id="rtmtv1.my">TV1</channel>
   <channel site="rtmklik.rtm.gov.my" site_id="2" lang="ms" xmltv_id="rtmtv2.my">TV2</channel>
   <channel site="rtmklik.rtm.gov.my" site_id="3" lang="ms" xmltv_id="rtmokey.my">Okey</channel>
@@ -163,21 +165,6 @@
   <channel site="rtmklik.rtm.gov.my" site_id="8" lang="ms" xmltv_id="rtmtv6.my">TV6</channel>
   <channel site="rtmklik.rtm.gov.my" site_id="9" lang="ms" xmltv_id="rtmdewanrakyat.my">Dewan Rakyat</channel>
   <channel site="rtmklik.rtm.gov.my" site_id="10" lang="ms" xmltv_id="dewannegara.my">Dewan Negara</channel>
-  <channel site="playtv.unifi.com.my" site_id="20000009" lang="my" xmltv_id="rtmtv1-unifi.my">TV1</channel>
-  <channel site="playtv.unifi.com.my" site_id="20000011" lang="my" xmltv_id="tv3.my">TV3</channel>
-  <channel site="playtv.unifi.com.my" site_id="20000017" lang="en" xmltv_id="8tv.my">8TV</channel>
-  <channel site="playtv.unifi.com.my" site_id="20000020" lang="my" xmltv_id="tv9.my">TV9</channel>
-  <channel site="playtv.unifi.com.my" site_id="20000031" lang="my" xmltv_id="didiktv-unifi.my">DidikTV KPM</channel>
-  <channel site="playtv.unifi.com.my" site_id="20000076" lang="my" xmltv_id="spotv.unifi">SPOTV</channel>
-  <channel site="playtv.unifi.com.my" site_id="20000109" lang="my" xmltv_id="spotv2.unifi">SPOTV2</channel>
-  <channel site="playtv.unifi.com.my" site_id="54185493" lang="my" xmltv_id="unifisports.my">unifi Sports 1</channel>
-  <channel site="playtv.unifi.com.my" site_id="55456338" lang="en" xmltv_id="bein1.my">beIN SPORTS</channel>
-  <channel site="playtv.unifi.com.my" site_id="59922231" lang="en" xmltv_id="bein2.my">beIN SPORTS 2</channel>
-  <channel site="playtv.unifi.com.my" site_id="55456355" lang="en" xmltv_id="bein3.my">beIN SPORTS 3</channel>
-  <channel site="playtv.unifi.com.my" site_id="57682031" lang="en" xmltv_id="bein4">beIN SPORTS 4</channel>
-  <channel site="playtv.unifi.com.my" site_id="55631601" lang="en" xmltv_id="degup.my">DEGUP</channel>
-  <channel site="playtv.unifi.com.my" site_id="56919296" lang="my" xmltv_id="siar.my">SIAR</channel>
-  <channel site="playtv.unifi.com.my" site_id="64822719" lang="en" xmltv_id="tvsarawak.my">TVS</channel>
   <channel site="mewatch.sg" site_id="97072" lang="en" xmltv_id="cna.sg">CNA</channel>
   <channel site="mewatch.sg" site_id="97073" lang="en" xmltv_id="mewatchlive1.sg">LIVE 1</channel>
   <channel site="mewatch.sg" site_id="97084" lang="en" xmltv_id="suria.sg">Suria</channel>
@@ -206,6 +193,12 @@
   <channel site="mewatch.sg" site_id="98202" lang="en" xmltv_id="mewatchlive5.sg">Me LIVE 5</channel>
   <channel site="mewatch.sg" site_id="204746" lang="en" xmltv_id="mewatchlive6.sg">Me LIVE 6</channel>
   <channel site="mewatch.sg" site_id="497989" lang="en" xmltv_id="mewatchlive7.sg">Me LIVE 7</channel>
+    <channel site="content.astro.com.my" site_id="48" lang="ms" xmltv_id="TV9.my@SD">TV9</channel>
+  <channel site="content.astro.com.my" site_id="67" lang="en" xmltv_id="AdithyaTV.in@SD">Adithya</channel>
+  <channel site="content.astro.com.my" site_id="91" lang="en" xmltv_id="AsianFoodNetwork.sg@SD">Asian Food Network HD</channel>
+  <channel site="content.astro.com.my" site_id="93" lang="ms" xmltv_id="NTV7.my@SD">NTV7</channel>
+  <channel site="content.astro.com.my" site_id="106" lang="ms" xmltv_id="tv3.my">TV3</channel>
+  <channel site="content.astro.com.my" site_id="115" lang="ms" xmltv_id="8tv.my">8TV</channel>
   <channel site="content.astro.com.my" site_id="486" lang="ms" xmltv_id="astroarenabola.my">Arena Bola</channel>
   <channel site="content.astro.com.my" site_id="487" lang="ms" xmltv_id="astroarenabola2.my">Arena Bola 2</channel>
   <channel site="content.astro.com.my" site_id="536" lang="ms" xmltv_id="astropremierleague.my">Astro Premier League</channel>
@@ -216,9 +209,28 @@
   <channel site="content.astro.com.my" site_id="541" lang="ms" xmltv_id="astrobadminton2.my">Astro Badminton 2</channel>
   <channel site="content.astro.com.my" site_id="542" lang="ms" xmltv_id="astrosportplus.my">Astro Sports Plus</channel>
   <channel site="content.astro.com.my" site_id="543" lang="ms" xmltv_id="astrograndstand.my">Astro Grandstand</channel>
+  <channel site="content.astro.com.my" site_id="236" lang="en" xmltv_id="bein1.my">beIN SPORTS 1</channel>
+  <channel site="content.astro.com.my" site_id="466" lang="en" xmltv_id="bein2.my">beIN SPORTS 2</channel>
+  <channel site="content.astro.com.my" site_id="313" lang="en" xmltv_id="bein3.my">beIN SPORTS 3</channel>
   <channel site="beinsports.com" site_id="63A30D9C-609D-4A30-8730-2CA391DF287A" lang="en" xmltv_id="bein2.au">beIN SPORTS 2</channel>
   <channel site="beinsports.com" site_id="164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F" lang="en" xmltv_id="bein1.au">beIN SPORTS 1</channel>
   <channel site="beinsports.com" site_id="2E8A6222-8D90-4291-81E3-AF2F72557746" lang="en" xmltv_id="bein3.au">beIN SPORTS 3</channel>
+  <channel site="beinsports.com" site_id="5223E3D7-FB4E-4155-885A-9165996B22FA" lang="en" xmltv_id="beinsportsxtra">beIN SPORTS XTRA ñ</channel>
+  <channel site="epgshare01.online" site_id="US1#Fox.Sports.1.us" lang="en" xmltv_id="fs1.us">Fox Sports 1</channel>
+  <channel site="epgshare01.online" site_id="US1#Fox.Sports.2.us" lang="en" xmltv_id="fs2.us">Fox Sports 2</channel>
+  <channel site="epgshare01.online" site_id="US1#Fox.Deportes.us" lang="en" xmltv_id="foxdeportes">Fox Deportes</channel>
+  <channel site="epgshare01.online" site_id="US1#Telemundo..-.Eastern.Feed.us" lang="en" xmltv_id="telemundo">Telemundo - Eastern Feed</channel>
+  <channel site="epgshare01.online" site_id="MX1#FOX.Sports.Premium.MEXICO.mx" lang="es" xmltv_id="foxsportspremium.mx">FOX Sports Premium MEXICO</channel>
+  <channel site="epgshare01.online" site_id="MX1#Canal.TUDN.(México).mx" lang="es" xmltv_id="tudn.mx">Canal TUDN (México)</channel>
+  <channel site="epgshare01.online" site_id="MX1#Canal.Fox.Sports.2.(México).mx" lang="es" xmltv_id="foxsports2.mx">Canal Fox Sports 2 (México)</channel>
+  <channel site="epgshare01.online" site_id="MX1#Canal.Fox.Sports.3.(México).mx" lang="es" xmltv_id="foxsports3.mx">Canal Fox Sports 3 (México)</channel>
+  <channel site="epgshare01.online" site_id="MX1#Canal.Fox.Sports.(México).mx" lang="es" xmltv_id="foxsports1.mx">Canal Fox Sports (México)</channel>
+  <channel site="epgshare01.online" site_id="SK1#Arena.Sport.1.HD.sk" lang="sk" xmltv_id="arenasport1.sk">Arena Sport 1 HD</channel>
+  <channel site="epgshare01.online" site_id="SK1#Arena.Sport.2.HD.sk" lang="sk" xmltv_id="arenasport2.sk">Arena Sport 2 HD</channel>
+  <channel site="epgshare01.online" site_id="SK1#Eurosport.1.HD.sk" lang="sk" xmltv_id="eurosport1.cz">Eurosport 1 HD</channel>
+  <channel site="epgshare01.online" site_id="SK1#Eurosport.2.HD.sk" lang="sk" xmltv_id="eurosport2.cz">Eurosport 2 HD</channel>
+  <channel site="epgshare01.online" site_id="SK1#Nova.Sport.1.HD.sk" lang="sk" xmltv_id="novasport1.cz">Nova Sport 1 HD</channel>
+  <channel site="epgshare01.online" site_id="SK1#Nova.Sport.2.HD.sk" lang="sk" xmltv_id="novasport2.cz">Nova Sport 2 HD</channel>
   <channel site="sky.de" site_id="130" lang="de" xmltv_id="skysport1.de">Sky Sport 1 HD</channel>
   <channel site="sky.de" site_id="131" lang="de" xmltv_id="skysport2.de">Sky Sport 2 HD</channel>
   <channel site="sky.de" site_id="853" lang="de" xmltv_id="skysportf1.de">Sky Sport F1 HD</channel>
@@ -231,24 +243,15 @@
   <channel site="sky.com" site_id="1010" lang="en" xmltv_id="skysportspl.uk">SkySp PL HD</channel>
   <channel site="sky.com" site_id="1289" lang="en" xmltv_id="premiersports1.ie">Premier 1 HD</channel>
   <channel site="sky.com" site_id="1290" lang="en" xmltv_id="premiersports2.ie">Premier 2 HD</channel>
-  <channel site="sky.com" site_id="3625" lang="en" xmltv_id="tnt1">TNTSports1 HD</channel>
-  <channel site="sky.com" site_id="3627" lang="en" xmltv_id="tnt2">TNTSports2 HD</channel>
-  <channel site="sky.com" site_id="3629" lang="en" xmltv_id="tnt3">TNTSports3 HD</channel>
-  <channel site="sky.com" site_id="3141" lang="en" xmltv_id="tnt4">TNT Sports 4</channel>
+  <channel site="sky.com" site_id="3625" lang="en" xmltv_id="tntsports1.uk">TNTSports1 HD</channel>
+  <channel site="sky.com" site_id="3627" lang="en" xmltv_id="tntsports2.uk">TNTSports2 HD</channel>
+  <channel site="sky.com" site_id="3629" lang="en" xmltv_id="tntsports3.uk">TNTSports3 HD</channel>
+  <channel site="sky.com" site_id="3141" lang="en" xmltv_id="tntsports4.uk">TNT Sports 4</channel>
   <channel site="sky.com" site_id="3835" lang="en" xmltv_id="skysportsf1.uk">SkySp F1 HD</channel>
   <channel site="sky.com" site_id="3839" lang="en" xmltv_id="skysportsplus.uk">SkySp+</channel>
   <channel site="sky.com" site_id="3840" lang="en" xmltv_id="skysportsfootball.uk">SkySp F&apos;ball</channel>
   <channel site="sky.com" site_id="4007" lang="en" xmltv_id="skysportsmain.uk">SkySpMainEvHD</channel>
   <channel site="sky.com" site_id="4091" lang="en" xmltv_id="skysportsmix.uk">SkySp Mix</channel>
-  <channel site="mysky.com.ph" site_id="31" lang="en" xmltv_id="spotv.ph">SPOTV</channel>
-  <channel site="mysky.com.ph" site_id="32" lang="en" xmltv_id="spotv2.ph">SPOTV 2</channel>
-  <channel site="mysky.com.ph" site_id="168" lang="en" xmltv_id="hbo.ph">HBO HD</channel>
-  <channel site="mysky.com.ph" site_id="169" lang="en" xmltv_id="hbohits.ph">HBO HITS HD</channel>
-  <channel site="mysky.com.ph" site_id="185" lang="en" xmltv_id="hbosignature.ph">HBO SIGNATURE HD</channel>
-  <channel site="mysky.com.ph" site_id="186" lang="en" xmltv_id="hbofamily.ph">HBO FAMILY HD</channel>
-  <channel site="mysky.com.ph" site_id="309" lang="en" xmltv_id="onesports.ph">ONE SPORTS</channel>
-  <channel site="mysky.com.ph" site_id="318" lang="en" xmltv_id="tapsports.ph">TAP SPORTS HD</channel>
-  <channel site="watch.sportsnet.ca" site_id="5895" lang="en" xmltv_id="sportsnetworld.ca">SN World</channel>
   <channel site="ziggogo.tv" site_id="NL_000094_019321" lang="nl" xmltv_id="ziggo1.nl">Ziggo Sport</channel>
   <channel site="ziggogo.tv" site_id="NL_000095_019371" lang="nl" xmltv_id="ziggo2.nl">Ziggo Sport 2</channel>
   <channel site="ziggogo.tv" site_id="NL_000096_019382" lang="nl" xmltv_id="ziggo3.nl">Ziggo Sport 3</channel>
@@ -259,20 +262,5 @@
   <channel site="ziggogo.tv" site_id="NL_000108_019561" lang="nl" xmltv_id="espn2.nl">ESPN 2</channel>
   <channel site="ziggogo.tv" site_id="NL_000109_019464" lang="nl" xmltv_id="espn3.nl">ESPN 3</channel>
   <channel site="ziggogo.tv" site_id="NL_000110_019562" lang="nl" xmltv_id="espn4.nl">ESPN 4</channel>
-  <channel site="claro.com.br" site_id="1_426" lang="pt" xmltv_id="espn.br">ESPN</channel>
-  <channel site="claro.com.br" site_id="1_427" lang="pt" xmltv_id="espn2.br">ESPN 2</channel>
-  <channel site="claro.com.br" site_id="1_2251" lang="pt" xmltv_id="espn3.br">ESPN 3 HD</channel>
-  <channel site="claro.com.br" site_id="1_1034" lang="pt" xmltv_id="espn4.br">Espn 4</channel>
-  <channel site="claro.com.br" site_id="1_2239" lang="pt" xmltv_id="espn5.br">ESPN 5 HD</channel>
-  <channel site="claro.com.br" site_id="1_1091" lang="pt" xmltv_id="espn6.br">ESPN 6 HD</channel>
-  <channel site="claro.com.br" site_id="1_875" lang="pt" xmltv_id="tnt.mx">TNT HD ³</channel>
-  <channel site="claro.com.br" site_id="1_471" lang="pt" xmltv_id="sportv1.br">SporTV</channel>
-  <channel site="claro.com.br" site_id="1_470" lang="pt" xmltv_id="sportv2.br">SporTV 2</channel>
-  <channel site="claro.com.br" site_id="1_1023" lang="pt" xmltv_id="sportv3.br">SporTV 3</channel>
-  <channel site="claro.com.br" site_id="1_1360" lang="pt" xmltv_id="premiere2.br">Premiere 2</channel>
-  <channel site="claro.com.br" site_id="1_1361" lang="pt" xmltv_id="premiere3.br">Premiere 3</channel>
-  <channel site="claro.com.br" site_id="1_1362" lang="pt" xmltv_id="premiere4.br">Premiere 4</channel>
-  <channel site="claro.com.br" site_id="1_1363" lang="pt" xmltv_id="premiere5.br">Premiere 5</channel>
-  <channel site="claro.com.br" site_id="1_1364" lang="pt" xmltv_id="premiere6.br">Premiere 6</channel>
   <channel site="directv.com.ar" site_id="629#TYCS" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/629.png" xmltv_id="tycsports">TyC Sports</channel>
 </channels>
