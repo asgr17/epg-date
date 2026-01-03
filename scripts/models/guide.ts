@@ -3,11 +3,13 @@ import { Storage } from '@freearhey/storage-js'
 import { EPGGrabber } from 'epg-grabber'
 import { Channel, Program } from '.'
 import utc from 'dayjs/plugin/utc'
+import timezone from 'dayjs/plugin/timezone'
 import dayjs from 'dayjs'
 import path from 'node:path'
 import pako from 'pako'
 
 dayjs.extend(utc)
+dayjs.extend(timezone)
 
 interface GuideData {
   channels: Collection<Channel>
@@ -36,7 +38,17 @@ export class Guide {
   toString() {
     const currDate = dayjs.utc(process.env.CURR_DATE || new Date().toISOString())
 
-    return EPGGrabber.generateXMLTV(this.channels.all(), this.programs.all(), currDate)
+    let xmltv = EPGGrabber.generateXMLTV(this.channels.all(), this.programs.all(), currDate)
+
+    // Convert UTC timestamps to WIB (+0700) for correct display in local timezone
+    // This replaces all "YYYYMMDDHHmmss +0000" with "YYYYMMDDHHmmss +0700"
+    xmltv = xmltv.replace(/(\d{14}) \+0000/g, (match, timestamp) => {
+      const utcDate = dayjs.utc(timestamp, 'YYYYMMDDHHmmss')
+      const wibDate = utcDate.tz('Asia/Jakarta')
+      return wibDate.format('YYYYMMDDHHmmss') + ' +0700'
+    })
+
+    return xmltv
   }
 
   async save({ logger }: { logger: Logger }) {
