@@ -262,4 +262,16 @@
   <channel site="ziggogo.tv" site_id="NL_000109_019464" lang="nl" xmltv_id="espn3.nl">ESPN 3</channel>
   <channel site="ziggogo.tv" site_id="NL_000110_019562" lang="nl" xmltv_id="espn4.nl">ESPN 4</channel>
   <channel site="directv.com.ar" site_id="629#TYCS" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/629.png" xmltv_id="tycsports">TyC Sports</channel>
+  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.(Panamá).pa" lang="en" xmltv_id="espn1.mx">ESPN 1</channel>
+  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.2.(Panamá).pa" lang="en" xmltv_id="espn2.mx">ESPN 2</channel>
+  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.3.(Panamá).pa" lang="en" xmltv_id="espn3.mx">ESPN 3</channel>
+  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.4.(Panamá).pa" lang="en" xmltv_id="espn4.mx">ESPN 4</channel>
+  <channel site="epgshare01.online" site_id="MN1#PSN1.mn" lang="en" xmltv_id="psn.premiersports1.mn">PSN 1</channel>
+  <channel site="epgshare01.online" site_id="MN1#PSN2.mn" lang="en" xmltv_id="psn.premiersports2.mn">PSN 2</channel>
+  <channel site="epgshare01.online" site_id="MN1#PSN3.mn" lang="en" xmltv_id="psn.premiersports3.mn">PSN 3</channel>
+  <channel site="epgshare01.online" site_id="MN1#PSN4.mn" lang="en" xmltv_id="psn.premiersports4.mn">PSN 4</channel>
+  <channel site="epgshare01.online" site_id="MN1#PSN5.mn" lang="en" xmltv_id="psn.premiersports5.mn">PSN 5</channel>
+  <channel site="epgshare01.online" site_id="MN1#São.Paulo/SP..SporTV.br" lang="en" xmltv_id="sportv1.br">SPORTV 1</channel>
+  <channel site="epgshare01.online" site_id="MN1#São.Paulo/SP..SporTV.2.br" lang="en" xmltv_id="sportv2.br">SPORTV 2</channel>
+  <channel site="epgshare01.online" site_id="MN1#São.Paulo/SP..SporTV.3..br" lang="en" xmltv_id="sportv2.br">SPORTV 3</channel>
 </channels>
