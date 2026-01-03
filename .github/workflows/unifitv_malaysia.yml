@@ -2,9 +2,9 @@ name: Unifitv Malaysia
 
 on:
   schedule:
-    # Jam 7 pagi WIB = 00:00 UTC (WIB = UTC+7)
+    # Jam 7 pagi WIB = 00:00 UTC
     - cron: '0 0 * * *'
-  workflow_dispatch:  # Untuk manual trigger
+  workflow_dispatch:
 
 jobs:
   grab:
@@ -18,9 +18,9 @@ jobs:
 
       - name: Run EPG Grabber
         run: |
-          epg-grabber --channels=unifi.com.my.channels.xml --output=unifitv_malaysia.xml --days=3
+          epg-grabber --config=unifi.com.my.ini --channels=unifi.com.my.channels.xml --output=unifitv_malaysia.xml --days=3
 
-      - name: Commit and push guide.xml
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
