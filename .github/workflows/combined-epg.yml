@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full git history untuk pull/rebase
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -42,4 +44,7 @@ jobs:
           
           # Hanya commit jika ada perubahan
           git diff --cached --quiet || git commit -m "🔄 Auto Update Combined EPG: $(date '+%Y-%m-%d %H:%M UTC')"
+          
+          # Pull dulu untuk menghindari konflik dengan perubahan remote
+          git pull --rebase origin master
           git push
