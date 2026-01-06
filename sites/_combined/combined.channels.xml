@@ -56,10 +56,6 @@
   <channel site="visionplus.id" site_id="00000000000000000024" lang="id" xmltv_id="jtv">JTV</channel>
   <channel site="visionplus.id" site_id="00000000000000000025" lang="id" xmltv_id="jaktv">JAK TV</channel>
   <channel site="visionplus.id" site_id="00000000000000000026" lang="id" xmltv_id="baltv">Bali TV</channel>
-  <channel site="visionplus.id" site_id="00000000000000000027" lang="id" xmltv_id="bandungtv">Bandung TV</channel>
-  <channel site="visionplus.id" site_id="00000000000000000028" lang="id" xmltv_id="tv9">TV 9</channel>
-  <channel site="visionplus.id" site_id="00000000000000000029" lang="id" xmltv_id="tawaf">Tawaf</channel>
-  <channel site="visionplus.id" site_id="00000000000000000030" lang="id" xmltv_id="tvmu">TV MU</channel>
   <channel site="visionplus.id" site_id="00000000000000000041" lang="id" xmltv_id="thrill.id">Thrill</channel>
   <channel site="visionplus.id" site_id="00000000000000000042" lang="id" xmltv_id="hitsmovies.id">Hits Movies</channel>
   <channel site="visionplus.id" site_id="00000000000000000044" lang="id" xmltv_id="celestialmovies.id">Celestial Movies</channel>
@@ -202,9 +198,7 @@
   <channel site="content.astro.com.my" site_id="541" lang="ms" xmltv_id="astrobadminton2.my">Astro Badminton 2</channel>
   <channel site="content.astro.com.my" site_id="542" lang="ms" xmltv_id="astrosportplus.my">Astro Sports Plus</channel>
   <channel site="content.astro.com.my" site_id="543" lang="ms" xmltv_id="astrograndstand.my">Astro Grandstand</channel>
-  <channel site="content.astro.com.my" site_id="236" lang="en" xmltv_id="bein1.my">beIN SPORTS 1</channel>
-  <channel site="content.astro.com.my" site_id="466" lang="en" xmltv_id="bein2.my">beIN SPORTS 2</channel>
-  <channel site="content.astro.com.my" site_id="313" lang="en" xmltv_id="bein3.my">beIN SPORTS 3</channel>
+  <channel site="beinsports.com" site_id="07C1C284-D784-4AD2-9F7E-022DCD196D04" lang="en" xmltv_id="bein3.my">beIN SPORTS 3</channel>
   <channel site="beinsports.com" site_id="63A30D9C-609D-4A30-8730-2CA391DF287A" lang="en" xmltv_id="bein2.au">beIN SPORTS 2</channel>
   <channel site="beinsports.com" site_id="164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F" lang="en" xmltv_id="bein1.au">beIN SPORTS 1</channel>
   <channel site="beinsports.com" site_id="2E8A6222-8D90-4291-81E3-AF2F72557746" lang="en" xmltv_id="bein3.au">beIN SPORTS 3</channel>
@@ -268,6 +262,10 @@
   <channel site="epgshare01.online" site_id="MN1#PSN4.mn" lang="en" xmltv_id="psn.premiersports4.mn">PSN 4</channel>
   <channel site="epgshare01.online" site_id="MN1#PSN5.mn" lang="en" xmltv_id="psn.premiersports5.mn">PSN 5</channel>
   <channel site="epgshare01.online" site_id="MX1#Canal.TNT.(MÃ©xico).mx" lang="en" xmltv_id="tnt.mx">TNT - MX</channel>
+  <channel site="epgshare01.online" site_id="ID1#HBO.HD.id" lang="en" xmltv_id="hbo.id">HBO HD</channel>
+  <channel site="epgshare01.online" site_id="ID1#HBO.Hits.HD.id" lang="en" xmltv_id="hbohits.id">HBO Hits</channel>
+  <channel site="epgshare01.online" site_id="ID1#HBO.Family.HD.id" lang="en" xmltv_id="hbofamily.id">HBO Family</channel>
+  <channel site="epgshare01.online" site_id="ID1#HBO.Signature.HD.id" lang="en" xmltv_id="hbosignature.id">HBO Signature</channel>
   <channel site="epgshare01.online" site_id="ID1#Warner.id" lang="en" xmltv_id="warner.id">warner</channel>
   <channel site="epgshare01.online" site_id="ID1#Cinemax.HD.id" lang="en" xmltv_id="cinemax.id">Cinemax HD</channel>
   <channel site="epgshare01.online" site_id="ID1#CINEEDGE.id" lang="en" xmltv_id="cineedge.id">Cineedge</channel>
