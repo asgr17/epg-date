@@ -293,4 +293,7 @@
   <channel site="go3tv.lt" lang="ee" xmltv_id="go3sport1.ee" site_id="4296024">Go3 Sport 1</channel>
   <channel site="go3tv.lt" lang="ee" xmltv_id="go3sport2.ee" site_id="4231570">Go3 Sport 2</channel>
   <channel site="go3tv.lt" lang="ee" xmltv_id="go3sport3.ee" site_id="4150367">Go3 Sport 3</channel>
+  <channel site="orangetv.orange.es" site_id="2047" lang="es" xmltv_id="barcatv">Barca TV</channel>
+  <channel site="orangetv.orange.es" site_id="1036" lang="es" xmltv_id="tv3catalunya">TV3 Catalunya</channel>
+  <channel site="orangetv.orange.es" site_id="12052" lang="es" xmltv_id="realmadridtv">Real Madrid</channel>
 </channels>
