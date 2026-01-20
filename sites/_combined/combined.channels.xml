@@ -141,11 +141,11 @@
   <channel site="visionplus.id" site_id="00000000000000000165" lang="id" xmltv_id="abc.id">ABC</channel>
   <channel site="visionplus.id" site_id="00000000000000001002" lang="id" xmltv_id="vplus.id">V+ LIVE</channel>
   <channel site="visionplus.id" site_id="00000000000000001008" lang="id" xmltv_id="rplus.id">R+ LIVE</channel>
-  <channel site="visionplus.id" site_id="00000000000000001010" lang="id" xmltv_id="sp2v6.id">V+ LIVE 2</channel>
+  <channel site="visionplus.id" site_id="00000000000000001010" lang="id" xmltv_id="vpluslive2.id">V+ LIVE 2</channel>
   <channel site="visionplus.id" site_id="00000000000000001011" lang="id" xmltv_id="vplussports.id">V+ Sports</channel>
-  <channel site="visionplus.id" site_id="00000000000000001012" lang="id" xmltv_id="sportstars3.id">V+ LIVE 3</channel>
-  <channel site="visionplus.id" site_id="00000000000000001013" lang="id" xmltv_id="sportstars4.id">V+ LIVE 4</channel>
-  <channel site="visionplus.id" site_id="00000000000000001014" lang="id" xmltv_id="vplus5.id">V+ LIVE 5</channel>
+  <channel site="visionplus.id" site_id="00000000000000001012" lang="id" xmltv_id="vpluslive3.id">V+ LIVE 3</channel>
+  <channel site="visionplus.id" site_id="00000000000000001013" lang="id" xmltv_id="vpluslive4.id">V+ LIVE 4</channel>
+  <channel site="visionplus.id" site_id="00000000000000001014" lang="id" xmltv_id="vpluslive5.id">V+ LIVE 5</channel>
   <channel site="dens.tv" site_id="137" lang="id" xmltv_id="jowo.id">Jowo</channel>
   <channel site="rtmklik.rtm.gov.my" site_id="1" lang="ms" xmltv_id="rtmtv1.my">TV1</channel>
   <channel site="rtmklik.rtm.gov.my" site_id="2" lang="ms" xmltv_id="rtmtv2.my">TV2</channel>
@@ -188,16 +188,6 @@
   <channel site="epgshare01.online" site_id="MY1#TV9.my" lang="en" xmltv_id="tv9.my">TV9</channel>
   <channel site="content.astro.com.my" site_id="115" lang="ms" xmltv_id="8tv.my">8TV</channel>
   <channel site="epgshare01.online" site_id="MY1#TV.Sarawak.my" lang="en" xmltv_id="tvsarawak.my">TV Sarawak</channel>
-  <channel site="content.astro.com.my" site_id="486" lang="ms" xmltv_id="astroarenabola.my">Arena Bola</channel>
-  <channel site="content.astro.com.my" site_id="487" lang="ms" xmltv_id="astroarenabola2.my">Arena Bola 2</channel>
-  <channel site="content.astro.com.my" site_id="536" lang="ms" xmltv_id="astropremierleague.my">Astro Premier League</channel>
-  <channel site="content.astro.com.my" site_id="537" lang="ms" xmltv_id="astropremierleague2.my">Astro Premier League 2</channel>
-  <channel site="content.astro.com.my" site_id="538" lang="ms" xmltv_id="astropremierleague3.my">Astro Premier League 3</channel>
-  <channel site="content.astro.com.my" site_id="539" lang="ms" xmltv_id="astrofootball.my">Astro Football</channel>
-  <channel site="content.astro.com.my" site_id="540" lang="ms" xmltv_id="astrobadminton.my">Astro Badminton</channel>
-  <channel site="content.astro.com.my" site_id="541" lang="ms" xmltv_id="astrobadminton2.my">Astro Badminton 2</channel>
-  <channel site="content.astro.com.my" site_id="542" lang="ms" xmltv_id="astrosportplus.my">Astro Sports Plus</channel>
-  <channel site="content.astro.com.my" site_id="543" lang="ms" xmltv_id="astrograndstand.my">Astro Grandstand</channel>
   <channel site="beinsports.com" site_id="07C1C284-D784-4AD2-9F7E-022DCD196D04" lang="en" xmltv_id="bein3.my">beIN SPORTS 3</channel>
   <channel site="beinsports.com" site_id="63A30D9C-609D-4A30-8730-2CA391DF287A" lang="en" xmltv_id="bein2.au">beIN SPORTS 2</channel>
   <channel site="beinsports.com" site_id="164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F" lang="en" xmltv_id="bein1.au">beIN SPORTS 1</channel>
@@ -210,15 +200,12 @@
   <channel site="epgshare01.online" site_id="SV1#Canal.Telemundo.Puerto.Rico.sv" lang="en" xmltv_id="telemundo">Telemundo - Eastern Feed</channel>
   <channel site="epgshare01.online" site_id="MX1#FOX.Sports.Premium.MEXICO.mx" lang="es" xmltv_id="foxsportspremium.mx">FOX Sports Premium MEXICO</channel>
   <channel site="epgshare01.online" site_id="MX1#Canal.TUDN.(México).mx" lang="es" xmltv_id="tudn.mx">Canal TUDN (México)</channel>
-  <channel site="epgshare01.online" site_id="MX1#FOX.SPORTS.2.mx" lang="es" xmltv_id="foxsports2.mx">Fox Sports 2 (México)</channel>
-  <channel site="epgshare01.online" site_id="MX1#FOX.SPORTS.3.mx" lang="es" xmltv_id="foxsports3.mx">Fox Sports 3 (México)</channel>
-  <channel site="epgshare01.online" site_id="MX1#FOX.SPORTS.mx" lang="es" xmltv_id="foxsports1.mx">Fox Sports (México)</channel>
   <channel site="epgshare01.online" site_id="SK1#Arena.Sport.1.HD.sk" lang="sk" xmltv_id="arenasport1.sk">Arena Sport 1 HD</channel>
   <channel site="epgshare01.online" site_id="SK1#Arena.Sport.2.HD.sk" lang="sk" xmltv_id="arenasport2.sk">Arena Sport 2 HD</channel>
   <channel site="epgshare01.online" site_id="SK1#Eurosport.1.HD.sk" lang="sk" xmltv_id="eurosport1.cz">Eurosport 1 HD</channel>
   <channel site="epgshare01.online" site_id="SK1#Eurosport.2.HD.sk" lang="sk" xmltv_id="eurosport2.cz">Eurosport 2 HD</channel>
-  <channel site="epgshare01.online" site_id="SK1#Nova.Sport.1.HD.sk" lang="sk" xmltv_id="novasport1.cz">Nova Sport 1 HD</channel>
-  <channel site="epgshare01.online" site_id="SK1#Nova.Sport.2.HD.sk" lang="sk" xmltv_id="novasport2.cz">Nova Sport 2 HD</channel>
+  <channel site="epg.iptvx.one" site_id="nova-sport1-cz" lang="ru" xmltv_id="novasport1antik.cz">Nova Sport 1</channel>
+  <channel site="epg.iptvx.one" site_id="nova-sport2-cz" lang="ru" xmltv_id="novasport2antik.cz">Nova Sport 2</channel>
   <channel site="sky.de" site_id="130" lang="de" xmltv_id="skysport1.de">Sky Sport 1 HD</channel>
   <channel site="sky.de" site_id="131" lang="de" xmltv_id="skysport2.de">Sky Sport 2 HD</channel>
   <channel site="sky.de" site_id="853" lang="de" xmltv_id="skysportf1.de">Sky Sport F1 HD</channel>
@@ -247,21 +234,17 @@
   <channel site="ziggogo.tv" site_id="NL_000097_019370" lang="nl" xmltv_id="ziggo4.nl">Ziggo Sport 4</channel>
   <channel site="ziggogo.tv" site_id="NL_000098_019255" lang="nl" xmltv_id="ziggo5.nl">Ziggo Sport 5</channel>
   <channel site="ziggogo.tv" site_id="NL_000099_019256" lang="nl" xmltv_id="ziggo6.nl">Ziggo Sport 6</channel>
-  <channel site="ziggogo.tv" site_id="NL_000107_019441" lang="nl" xmltv_id="espn.nl">ESPN</channel>
-  <channel site="ziggogo.tv" site_id="NL_000108_019561" lang="nl" xmltv_id="espn2.nl">ESPN 2</channel>
-  <channel site="ziggogo.tv" site_id="NL_000109_019464" lang="nl" xmltv_id="espn3.nl">ESPN 3</channel>
-  <channel site="ziggogo.tv" site_id="NL_000110_019562" lang="nl" xmltv_id="espn4.nl">ESPN 4</channel>
   <channel site="directv.com.ar" site_id="629#TYCS" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/629.png" xmltv_id="tycsports">TyC Sports</channel>
-  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.(Panamá).pa" lang="en" xmltv_id="espn1.mx">ESPN 1</channel>
-  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.2.(Panamá).pa" lang="en" xmltv_id="espn2.mx">ESPN 2</channel>
-  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.3.(Panamá).pa" lang="en" xmltv_id="espn3.mx">ESPN 3</channel>
-  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.4.(Panamá).pa" lang="en" xmltv_id="espn4.mx">ESPN 4</channel>
+  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.(Panamá).pa" lang="en" xmltv_id="espn1pa.mx">ESPN 1</channel>
+  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.2.(Panamá).pa" lang="en" xmltv_id="espn2pa.mx">ESPN 2</channel>
+  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.3.(Panamá).pa" lang="en" xmltv_id="espn3pa.mx">ESPN 3</channel>
+  <channel site="epgshare01.online" site_id="PA1#Canal.ESPN.4.(Panamá).pa" lang="en" xmltv_id="espn4pa.mx">ESPN 4</channel>
   <channel site="epgshare01.online" site_id="MN1#PSN1.mn" lang="en" xmltv_id="psn.premiersports1.mn">PSN 1</channel>
   <channel site="epgshare01.online" site_id="MN1#PSN2.mn" lang="en" xmltv_id="psn.premiersports2.mn">PSN 2</channel>
   <channel site="epgshare01.online" site_id="MN1#PSN3.mn" lang="en" xmltv_id="psn.premiersports3.mn">PSN 3</channel>
   <channel site="epgshare01.online" site_id="MN1#PSN4.mn" lang="en" xmltv_id="psn.premiersports4.mn">PSN 4</channel>
   <channel site="epgshare01.online" site_id="MN1#PSN5.mn" lang="en" xmltv_id="psn.premiersports5.mn">PSN 5</channel>
-  <channel site="epgshare01.online" site_id="MX1#Canal.TNT.(MÃ©xico).mx" lang="en" xmltv_id="tnt.mx">TNT - MX</channel>
+  <channel site="clarotvmais.com.br" site_id="9" lang="pt" xmltv_id="izzi-tnt.mx">TNT HD</channel>
   <channel site="epgshare01.online" site_id="ID1#HBO.HD.id" lang="en" xmltv_id="hbo.id">HBO HD</channel>
   <channel site="epgshare01.online" site_id="ID1#HBO.Hits.HD.id" lang="en" xmltv_id="hbohits.id">HBO Hits</channel>
   <channel site="epgshare01.online" site_id="ID1#HBO.Family.HD.id" lang="en" xmltv_id="hbofamily.id">HBO Family</channel>
@@ -272,11 +255,9 @@
   <channel site="epgshare01.online" site_id="ID1#CINEEDGE.HD.id" lang="en" xmltv_id="cineedgehd.id">Cineedge HD</channel>
   <channel site="epgshare01.online" site_id="AR1#Canal.TyC.Sports.ar" lang="en" xmltv_id="tycsports">tycsports</channel>
   <channel site="epgshare01.online" site_id="PLEX1#plex.tv.CBS.Sports.Golazo.Network.plex" lang="en" xmltv_id="cbsgolazo">CBS Sports Golazo</channel>
-  <channel site="epgshare01.online" site_id="AE1#Sharjah.Sports.HD.ae" lang="en" xmltv_id="alsharjahsport.ae">AL Sharjah</channel>
   <channel site="epgshare01.online" site_id="RAKUTEN1#UK:.DAZN.Combat.be" lang="en" xmltv_id="dazncombat">DAZN Combat</channel>
   <channel site="epgshare01.online" site_id="ES1#LALIGA.TV.HYPERMOTION.es" lang="en" xmltv_id="laligatvhypermotion.es">LALIGA TV HypermotionV</channel>
   <channel site="epgshare01.online" site_id="ES1#LALIGA.TV.BAR.es" lang="en" xmltv_id="laligatv.bar.es">LALIGA TV</channel>
-  <channel site="epgshare01.online" site_id="DUMMY_CHANNELS#Fubo.Sports.us" lang="en" xmltv_id="fubosports">Fubo Sports 1</channel>
   <channel site="epgshare01.online" site_id="CA2#Sportsnet.World.HD.ca2" lang="en" xmltv_id="sportsnet.ca">Sportsnet</channel>
   <channel site="epgshare01.online" site_id="CA2#TSN.1.ca2" lang="en" xmltv_id="tsn1.ca">TSN 1</channel>
   <channel site="epgshare01.online" site_id="CA2#TSN.2.ca2" lang="en" xmltv_id="tsn2.ca">TSN 2</channel>
@@ -286,4 +267,26 @@
   <channel site="epgshare01.online" site_id="AE1#Dubai.Sports.1.HD.ae" lang="en" xmltv_id="dubai-sports1.ae">Dubai Sports 1</channel>
   <channel site="epgshare01.online" site_id="AE1#Dubai.Sports.2.ae" lang="en" xmltv_id="dubai-sports2.ae">Dubai Sports 2</channel>
   <channel site="epgshare01.online" site_id="AE1#Dubai.Sports.1.ae" lang="en" xmltv_id="dubai-sports3.ae">Dubai Sports 3</channel>
+  <channel site="raiplay.it" site_id="rai-sport" lang="it" xmltv_id="raisport.it">RAI SPORT</channel>
+  <channel site="cgates.lt" site_id="sport-1-baltic" lang="lt" xmltv_id="sport1ba.baltic">Sport 1 Baltic</channel>
+  <channel site="cgates.lt" site_id="sport-2-baltic" lang="lt" xmltv_id="sport2ba.baltic">Sport 2 Baltic</channel>
+  <channel site="cgates.lt" site_id="setanta-sports-hd" lang="lt" xmltv_id="setantasports1">Setanta Sports 1</channel>
+  <channel site="cgates.lt" site_id="setanta-sports-2" lang="lt" xmltv_id="setantasports2">Setanta Sports 2</channel>
+  <channel site="tv.lv" site_id="go3-sport" lang="lv" xmltv_id="go3sport1">Go3 Sport 1</channel>
+  <channel site="tv.lv" site_id="go3-sport-2" lang="lv" xmltv_id="go3sport2">Go3 Sport 2</channel>
+  <channel site="cgates.lt" site_id="tv3-sport-open-hd" lang="en" xmltv_id="go3sportopen">'Go3 Sport Open</channel>
+  <channel site="epg.iptvx.one" site_id="fubo-sports-network-us" lang="ru" xmltv_id="fubosports">Fubo Sports 1</channel>
+  <channel site="epg.iptvx.one" site_id="fox-sports1-mx" lang="ru" xmltv_id="izzi-foxsports1.mx">FOX Sports 1 [MX]</channel>
+  <channel site="epg.iptvx.one" site_id="fox-sports2-mx" lang="ru" xmltv_id="izzi-foxsports2.mx">Fox Sports 2 [MX]</channel>
+  <channel site="epg.iptvx.one" site_id="fox-sports3-mx" lang="ru" xmltv_id="izzi-foxsports3.mx">Fox Sports 3 [MX]</channel>
+  <channel site="epg.iptvx.one" site_id="match-football1" lang="ru" xmltv_id="match1.ru">Match! 1 Ru</channel>
+  <channel site="epg.iptvx.one" site_id="match-football2" lang="ru" xmltv_id="match2.ru">Match! 2 Ru</channel>
+  <channel site="epg.iptvx.one" site_id="match-football3" lang="ru" xmltv_id="match3.ru">Match! 3 Ru</channel>
+  <channel site="epg.iptvx.one" site_id="yes-sport-5" lang="ru" xmltv_id="sport5.il">SPORT 5</channel>
+  <channel site="epg.iptvx.one" site_id="tvp-sport" lang="ru" xmltv_id="tvpsport.pl">TVP Sport</channel>
+  <channel site="epg.iptvx.one" site_id="sky-sports-laliga-mx" lang="ru" xmltv_id="skysportslaliga.mx">Sky Sports LaLiga [MX]</channel>
+  <channel site="epg.iptvx.one" site_id="laliga-tv-hypermotion-es" lang="ru" xmltv_id="laligatvhypermotionv">LaLiga TV Hypermotion [ES]</channel>
+  <channel site="clarotvmais.com.br" site_id="30" lang="pt" xmltv_id="spor-tv1.br">SPORTV</channel>
+  <channel site="clarotvmais.com.br" site_id="31" lang="pt" xmltv_id="spor-tv2.br">SPORTV 2</channel>
+  <channel site="clarotvmais.com.br" site_id="32" lang="pt" xmltv_id="spor-tv3.br">SPORTV 3</channel>
 </channels> 
