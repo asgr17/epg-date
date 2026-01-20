@@ -289,6 +289,4 @@
   <channel site="clarotvmais.com.br" site_id="30" lang="pt" xmltv_id="spor-tv1.br">SPORTV</channel>
   <channel site="clarotvmais.com.br" site_id="31" lang="pt" xmltv_id="spor-tv2.br">SPORTV 2</channel>
   <channel site="clarotvmais.com.br" site_id="32" lang="pt" xmltv_id="spor-tv3.br">SPORTV 3</channel>
-  <channel site="antiktv" site_id="sport_1" lang="sk" xmltv_id="sport1antik.cz">Sport 1</channel>
-  <channel site="antiktv" site_id="sport_2" lang="sk" xmltv_id="sport2antik.cz">Sport 2</channel>
 </channels> 
