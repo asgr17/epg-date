@@ -272,10 +272,10 @@
   <channel site="cgates.lt" site_id="sport-2-baltic" lang="lt" xmltv_id="sport2ba.baltic">Sport 2 Baltic</channel>
   <channel site="cgates.lt" site_id="setanta-sports-hd" lang="lt" xmltv_id="setantasports1">Setanta Sports 1</channel>
   <channel site="cgates.lt" site_id="setanta-sports-2" lang="lt" xmltv_id="setantasports2">Setanta Sports 2</channel>
-  <channel site="cgates.tv" site_id="560502" xmltv_id="go3sport1">Go3 Sport HD</channel>
-  <channel site="cgates.tv" site_id="560505" xmltv_id="go3sport2">Go3 Sport 2 HD</channel>
-  <channel site="cgates.lt" site_id="go3-sport" lang="lv" xmltv_id="go3sport1">Go3 Sport 1</channel>
-  <channel site="cgates.lt" site_id="go3-sport-2" lang="lv" xmltv_id="go3sport2">Go3 Sport 2</channel>
+  <channel site="cgates.tv" site_id="560502" lang="en" xmltv_id="go3sport1">Go3 Sport HD</channel>
+  <channel site="cgates.tv" site_id="560505" lang="en" xmltv_id="go3sport2">Go3 Sport 2 HD</channel>
+  <channel site="cgates.lt" site_id="go3-sport" lang="en" xmltv_id="go3sport1">Go3 Sport 1</channel>
+  <channel site="cgates.lt" site_id="go3-sport-2" lang="en" xmltv_id="go3sport2">Go3 Sport 2</channel>
   <channel site="cgates.lt" site_id="tv3-sport-open-hd" lang="en" xmltv_id="go3sportopen">'Go3 Sport Open</channel>
   <channel site="epg.iptvx.one" site_id="fubo-sports-network-us" lang="ru" xmltv_id="fubosports">Fubo Sports 1</channel>
   <channel site="epg.iptvx.one" site_id="fox-sports1-mx" lang="ru" xmltv_id="izzi-foxsports1.mx">FOX Sports 1 [MX]</channel>
