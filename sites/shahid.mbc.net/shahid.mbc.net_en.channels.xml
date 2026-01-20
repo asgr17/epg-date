@@ -69,4 +69,13 @@
   <channel site="shahid.mbc.net" site_id="49922763510387" lang="en" xmltv_id="Tarab.sa@SD">Tarab</channel>
   <channel site="shahid.mbc.net" site_id="946945" lang="en" xmltv_id="ThikrayatTV.sa@SD">Thikrayat</channel>
   <channel site="shahid.mbc.net" site_id="414449" lang="en" xmltv_id="Wanasah.ae@SD">Wanasa</channel>
+  <channel site="shahid.mbc.net" site_id="900303" lang="en" xmltv_id="SSC1.sa@HD">SSC1 HD</channel>
+  <channel site="shahid.mbc.net" site_id="948832" lang="en" xmltv_id="SSC2.sa@SD">SSC2 HD</channel>
+  <channel site="shahid.mbc.net" site_id="948833" lang="en" xmltv_id="SSC3.sa@SD">SSC3 HD</channel>
+  <channel site="shahid.mbc.net" site_id="948835" lang="en" xmltv_id="SSC4.sa@HD">SSC4 HD</channel>
+  <channel site="shahid.mbc.net" site_id="948838" lang="en" xmltv_id="SSC5.sa@SD">SSC5 HD</channel>
+  <channel site="shahid.mbc.net" site_id="948841" lang="en" xmltv_id="SSCExtra1.sa@SD">SSC Extra 1 HD</channel>
+  <channel site="shahid.mbc.net" site_id="948843" lang="en" xmltv_id="SSCExtra2.sa@SD">SSC Extra 2 HD</channel>
+  <channel site="shahid.mbc.net" site_id="948845" lang="en" xmltv_id="SSCExtra3.sa@SD">SSC Extra 3 HD</channel>
 </channels>
+
