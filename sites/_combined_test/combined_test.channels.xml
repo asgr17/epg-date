@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="shahid.mbc.net" site_id="900303" lang="en" xmltv_id="SSC1.sa@HD">SSC1 HD</channel>
+  <channel site="shahid.mbc.net" site_id="948832" lang="en" xmltv_id="SSC2.sa@SD">SSC2 HD</channel>
+  <channel site="shahid.mbc.net" site_id="948833" lang="en" xmltv_id="SSC3.sa@SD">SSC3 HD</channel>
+  <channel site="shahid.mbc.net" site_id="948835" lang="en" xmltv_id="SSC4.sa@HD">SSC4 HD</channel>
+  <channel site="shahid.mbc.net" site_id="948838" lang="en" xmltv_id="SSC5.sa@SD">SSC5 HD</channel>
+</channels>
