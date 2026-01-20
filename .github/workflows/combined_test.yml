@@ -1,4 +1,4 @@
-name: Combined EPG Grabber
+name: Combined test
 
 on:
   schedule:
