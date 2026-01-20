@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="webtv.sk" site_id="sport_1" lang="sk" xmltv_id="sport1antik.cz">Sport 1</channel>
+  <channel site="webtv.sk" site_id="sport_2" lang="sk" xmltv_id="sport2antik.cz">Sport 2</channel>
+</channels>
