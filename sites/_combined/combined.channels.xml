@@ -275,6 +275,7 @@
   <channel site="epg.iptvx.one" site_id="fox-sports1-mx" lang="en" xmltv_id="izzi-foxsports1.mx">FOX Sports 1 [MX]</channel>
   <channel site="epg.iptvx.one" site_id="fox-sports2-mx" lang="en" xmltv_id="izzi-foxsports2.mx">Fox Sports 2 [MX]</channel>
   <channel site="epg.iptvx.one" site_id="fox-sports3-mx" lang="en" xmltv_id="izzi-foxsports3.mx">Fox Sports 3 [MX]</channel>
+  <channel site="tv.mail.ru" site_id="2682" lang="ru" xmltv_id="match.ru">МАТЧ! HD</channel>
   <channel site="epg.iptvx.one" site_id="match-football1" lang="en" xmltv_id="match1.ru">Match! 1 Ru</channel>  
   <channel site="epg.iptvx.one" site_id="match-football2" lang="en" xmltv_id="match2.ru">Match! 2 Ru</channel>
   <channel site="epg.iptvx.one" site_id="match-football3" lang="en" xmltv_id="match3.ru">Match! 3 Ru</channel>
@@ -289,4 +290,7 @@
   <channel site="antiktv.sk" lang="sk" xmltv_id="eurosports2antik" site_id="eurosport_2">Eurosport 2</channel>
   <channel site="antiktv.sk" lang="sk" xmltv_id="sport1antik" site_id="sport_1">Sport 1</channel>
   <channel site="antiktv.sk" lang="sk" xmltv_id="sport2antik" site_id="sport_2">Sport 2</channel>
+  <channel site="go3tv.lt" lang="ee" xmltv_id="go3sport1.ee" site_id="4296024">Go3 Sport 1</channel>
+  <channel site="go3tv.lt" lang="ee" xmltv_id="go3sport2.ee" site_id="4231570">Go3 Sport 2</channel>
+  <channel site="go3tv.lt" lang="ee" xmltv_id="go3sport3.ee" site_id="4150367">Go3 Sport 3</channel>
 </channels>
