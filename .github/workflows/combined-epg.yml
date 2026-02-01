@@ -2,10 +2,8 @@ name: Combined EPG Grabber
 
 on:
   schedule:
-    # Jam 7 pagi WIB = 00:00 UTC (WIB = UTC+7)
     - cron: '0 0 * * *'
   workflow_dispatch:
-    # Memungkinkan menjalankan workflow secara manual
 
 jobs:
   grab-combined-epg:
@@ -17,12 +15,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Full git history untuk pull/rebase
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '20'
           cache: 'npm'
 
       - name: Install Dependencies
@@ -34,17 +32,15 @@ jobs:
             --channels=sites/_combined/combined.channels.xml \
             --output=guide.xml \
             --days=3
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "action@github.com"
-          
+
           git add guide.xml
-          
-          # Hanya commit jika ada perubahan
           git diff --cached --quiet || git commit -m "🔄 Auto Update Combined EPG: $(date '+%Y-%m-%d %H:%M UTC')"
-          
-          # Pull dulu untuk menghindari konflik dengan perubahan remote
           git pull --rebase origin master
           git push
