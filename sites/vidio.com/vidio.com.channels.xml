@@ -4,8 +4,9 @@
   <channel site="vidio.com" site_id="778" lang="id" xmltv_id="">GTV</channel>
   <channel site="vidio.com" site_id="870" lang="id" xmltv_id="">MNCTV</channel>
   <channel site="vidio.com" site_id="5409" lang="id" xmltv_id="">iNews</channel>
-  <channel site="vidio.com" site_id="6410" lang="id" xmltv_id="">Aljazeera</channel>
   <channel site="vidio.com" site_id="6482" lang="id" xmltv_id="">DAAI TV</channel>
+  <channel site="vidio.com" site_id="6786" lang="id" xmltv_id="">Champions TV 3</channel>
+  <channel site="vidio.com" site_id="7052" lang="id" xmltv_id="">Hip Hip Horee!</channel>
   <channel site="vidio.com" site_id="7432" lang="id" xmltv_id="">Nusantara TV</channel>
   <channel site="vidio.com" site_id="7968" lang="id" xmltv_id="">NHK World Japan</channel>
   <channel site="vidio.com" site_id="8237" lang="id" xmltv_id="">Mentari TV</channel>
@@ -17,7 +18,6 @@
   <channel site="vidio.com" site_id="18162" lang="id" xmltv_id="">Garuda TV</channel>
   <channel site="vidio.com" site_id="18190" lang="id" xmltv_id="">Champions Golf 2</channel>
   <channel site="vidio.com" site_id="19046" lang="id" xmltv_id="">Sin Po TV</channel>
-  <channel site="vidio.com" site_id="20216" lang="id" xmltv_id="">Champions Fight</channel>
   <channel site="vidio.com" site_id="7464" lang="id" xmltv_id="AjwaTV.id@SD">AJWA TV</channel>
   <channel site="vidio.com" site_id="782" lang="id" xmltv_id="ANTV.id@SD">ANTV</channel>
   <channel site="vidio.com" site_id="6299" lang="id" xmltv_id="beINSports1.qa@Indonesia">Bein 1</channel>
