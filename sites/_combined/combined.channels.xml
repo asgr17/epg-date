@@ -270,8 +270,8 @@
   <channel site="epgshare01.online" site_id="en:.AD.Sports.Extra.ae" lang="en" xmltv_id="abudhabisportsextra.ae">AD Sports Extra</channel>
   <channel site="epgshare01.online" site_id="en:.YAS.TV.Extra.ae" lang="en" xmltv_id="adsportsyastvextra.ae">AD Sports YASTV Extra</channel>
   <channel site="epgshare01.online" site_id="en:.STARZPLAY.Sports.1.ae" lang="en" xmltv_id="starzplaysports1.ae">Starplay Sports 1</channel>
-    <channel site="epgshare01.online" site_id="en:.STARZPLAY.Sports.2.ae" lang="en" xmltv_id="starzplaysports2.ae">Starplay Sports 2</channel>
-    <channel site="epgshare01.online" site_id="en:.STARZPLAY.Sports.ae" lang="en" xmltv_id="starzplaysports3.ae">Starplay Sports 3</channel>
+  <channel site="epgshare01.online" site_id="en:.STARZPLAY.Sports.2.ae" lang="en" xmltv_id="starzplaysports2.ae">Starplay Sports 2</channel>
+  <channel site="epgshare01.online" site_id="en:.STARZPLAY.Sports.ae" lang="en" xmltv_id="starzplaysports3.ae">Starplay Sports 3</channel>
   <channel site="raiplay.it" site_id="rai-sport" lang="it" xmltv_id="raisport.it">RAI SPORT</channel>
   <channel site="cgates.lt" site_id="sport-1-baltic" lang="lt" xmltv_id="sport1ba.baltic">Sport 1 Baltic</channel>
   <channel site="cgates.lt" site_id="sport-2-baltic" lang="lt" xmltv_id="sport2ba.baltic">Sport 2 Baltic</channel>
