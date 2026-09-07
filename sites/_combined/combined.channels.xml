@@ -212,7 +212,6 @@
   <channel site="sky.com" site_id="3625" lang="en" xmltv_id="tntsports1.uk">TNTSports1 HD</channel>
   <channel site="sky.com" site_id="3627" lang="en" xmltv_id="tntsports2.uk">TNTSports2 HD</channel>
   <channel site="sky.com" site_id="3629" lang="en" xmltv_id="tntsports3.uk">TNTSports3 HD</channel>
-  <channel site="sky.com" site_id="3141" lang="en" xmltv_id="tntsports4.uk">TNT Sports 4</channel>
   <channel site="sky.com" site_id="3835" lang="en" xmltv_id="skysportsf1.uk">SkySp F1 HD</channel>
   <channel site="sky.com" site_id="3839" lang="en" xmltv_id="skysportsplus.uk">SkySp+</channel>
   <channel site="sky.com" site_id="3840" lang="en" xmltv_id="skysportsfootball.uk">SkySp F&apos;ball</channel>
@@ -279,4 +278,5 @@
   <channel site="orangetv.orange.es" site_id="2047" lang="es" xmltv_id="barcatv">Barca TV</channel>
   <channel site="orangetv.orange.es" site_id="1036" lang="es" xmltv_id="tv3catalunya">TV3 Catalunya</channel>
   <channel site="orangetv.orange.es" site_id="12052" lang="es" xmltv_id="realmadridtv">Real Madrid</channel>
+  <channel site="epgshare01.online" site_id="TNT.Sports.4.HD.uk" lang="en" xmltv_id="tntsports4.uk">TNT Sports 4</channel>
 </channels>
