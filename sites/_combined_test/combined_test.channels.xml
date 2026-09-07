@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="entertainment.ie" site_id="tnt-sports-4" lang="en" xmltv_id="">TNT Sports 4</channel>
+  <channel site="virgintvgo.virginmedia.com" site_id="1405" lang="en" xmltv_id="TNTSports4.uk@HD">TNT Sports 4 HD</channel>
+   <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="TNTSport4.uk" site_id="1405">TNT Sports 4 HD</channel>
 </channels>
