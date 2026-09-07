@@ -26,11 +26,11 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Grab Combined EPG
+      - name: Grab Combined test EPG
         run: |
           npm run grab -- \
             --channels=sites/_combined_test/combined_test.channels.xml \
-            --output=guide_test.xml \
+            --output=guidetest.xml \
             --days=3
         env:
           NODE_OPTIONS: --max-old-space-size=6144
