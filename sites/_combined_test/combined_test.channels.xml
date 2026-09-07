@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="shahid.mbc.net" site_id="900303" lang="en" xmltv_id="SSC1.sa@HD">SSC1 HD</channel>
-  <channel site="shahid.mbc.net" site_id="948832" lang="en" xmltv_id="SSC2.sa@SD">SSC2 HD</channel>
-  <channel site="shahid.mbc.net" site_id="948833" lang="en" xmltv_id="SSC3.sa@SD">SSC3 HD</channel>
-  <channel site="shahid.mbc.net" site_id="948835" lang="en" xmltv_id="SSC4.sa@HD">SSC4 HD</channel>
-  <channel site="shahid.mbc.net" site_id="948838" lang="en" xmltv_id="SSC5.sa@SD">SSC5 HD</channel>
+    <channel site="cellcom.co.il" site_id="3575##e749e17645474869bff721b36d769b44/version/0" xmltv_id="3047659">ONE2 HD</channel>
+    <channel site="cellcom.co.il" site_id="3574##0727feeb67234ff9891581848906e791/version/0" xmltv_id="3047658">ONE HD</channel>
+    <channel site="cellcom.co.il" site_id="3601##c45c03d518464658af8776260fbfec99/version/1" xmltv_id="3047653">5SPORT HD</channel>
+    <channel site="cellcom.co.il" site_id="3563##5180a9b7ea354290a1576175631fe49d/version/1" xmltv_id="3047655">5PLUS HD</channel>
+    <channel site="cellcom.co.il" site_id="3566##d6f1b8f20ab64fa79342639eb7603cc5/version/1" xmltv_id="3047657">5GOLD</channel>
+    <channel site="cellcom.co.il" site_id="3565##3fd17f2b9f4c469d95fed1446f198474/version/1" xmltv_id="3047654">5LIVE HD</channel>
+    <channel site="cellcom.co.il" site_id="3564##06c47e53fc4d40d494c62a1c905c59d8/version/1" xmltv_id="3047656">5STARS</channel>
 </channels>
