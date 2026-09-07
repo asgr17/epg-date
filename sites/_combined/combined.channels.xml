@@ -278,5 +278,6 @@
   <channel site="orangetv.orange.es" site_id="2047" lang="es" xmltv_id="barcatv">Barca TV</channel>
   <channel site="orangetv.orange.es" site_id="1036" lang="es" xmltv_id="tv3catalunya">TV3 Catalunya</channel>
   <channel site="orangetv.orange.es" site_id="12052" lang="es" xmltv_id="realmadridtv">Real Madrid</channel>
-  <channel site="epgshare01.online" site_id="TNT.Sports.4.HD.uk" lang="en" xmltv_id="tntsports4.uk">TNT Sports 4</channel>
+  <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="tntsports4.uk" site_id="1405">TNT Sports 4</channel>
+  <channel site="web.magentatv.de" site_id="194" lang="de" xmltv_id="sportdigitalfussball.de">SPORTDIGITAL FUSSBALL</channel>
 </channels>
