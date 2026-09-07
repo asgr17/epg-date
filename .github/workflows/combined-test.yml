@@ -1,0 +1,46 @@
+name: Combined Test
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  grab-combined-epg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Grab Combined EPG
+        run: |
+          npm run grab -- \
+            --channels=sites/_combined_test/combined_test.channels.xml \
+            --output=guide_test.xml \
+            --days=3
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+
+          git add guide.xml
+          git diff --cached --quiet || git commit -m "🔄 Auto Update Combined EPG: $(date '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin master
+          git push
