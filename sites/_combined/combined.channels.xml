@@ -303,4 +303,11 @@
   <channel site="orangetv.orange.es" site_id="2047" lang="es" xmltv_id="barcatv">Barca TV</channel>
   <channel site="orangetv.orange.es" site_id="1036" lang="es" xmltv_id="tv3catalunya">TV3 Catalunya</channel>
   <channel site="orangetv.orange.es" site_id="12052" lang="es" xmltv_id="realmadridtv">Real Madrid</channel>
+  <channel site="yes.co.il" site_id="PT26" xmltv_id="sport5hls.il">Sport 5 HD (55)</channel>
+  <channel site="yes.co.il" site_id="CH54" xmltv_id="sport5plus.hls">Sport 5+ HD (56)</channel>
+  <channel site="yes.co.il" site_id="MU03" xmltv_id="sport5gold.hls">Sport 5 Gold (57)</channel>
+  <channel site="yes.co.il" site_id="PT62" xmltv_id="sport5live.hls">Sport 5 Live HD (58)</channel>
+  <channel site="yes.co.il" site_id="CH56" xmltv_id="sport5stars.hls">Sport 5 Stars HD (59)</channel>
+  <channel site="yes.co.il" site_id="CN49" xmltv_id="sport5max.hls">Sport 5 MAX</channel>
+  <channel site="yes.co.il" site_id="CH55" xmltv_id="sport54k.hls">Sport 5 4K</channel>
 </channels>
