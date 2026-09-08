@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="plex.tv" site_id="6571186d9a46917c0a8f2ddd" lang="en" xmltv_id="CBSSportsGolazoNetwork.us@SD">CBS Sports Golazo Network</channel>
-  <channel site="plex.tv" site_id="657107dc56226238740fcc2d" lang="en" xmltv_id="CBSSportsHQ.us@SD">CBS Sports HQ</channel>
+ <channel site="pluto.tv" lang="en" xmltv_id="" site_id="63a0e33a45264d000850ed7e">Golazo Network</channel>
 </channels>
