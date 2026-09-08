@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
- <channel site="directv.com.ar" site_id="1099#DTSAHD" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/1610.png" xmltv_id="">DSPORTS (ARG)</channel>
-  <channel site="directv.com.ar" site_id="612#DTS2" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/612.png" xmltv_id="">DSPORTS 2</channel>
+  <channel site="plex.tv" site_id="6571186d9a46917c0a8f2ddd" lang="en" xmltv_id="CBSSportsGolazoNetwork.us@SD">CBS Sports Golazo Network</channel>
+  <channel site="plex.tv" site_id="657107dc56226238740fcc2d" lang="en" xmltv_id="CBSSportsHQ.us@SD">CBS Sports HQ</channel>
 </channels>
