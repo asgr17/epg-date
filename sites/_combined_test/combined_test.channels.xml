@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
- <channel site="tataplay.com" site_id="1489" lang="en" xmltv_id="">Tata Play Fancode Sports</channel>
- <channel site="tataplay.com" site_id="1786" lang="en" xmltv_id="">Tata Play Fancode Sports +1</channel>
+  <channel site="directv.com.ar" site_id="1099#DTSAHD" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/1610.png" xmltv_id="dsports.latam">D Sports</channel>
+  <channel site="directv.com.ar" site_id="1610#DTSAHD" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/1610.png" xmltv_id="dsports.latam">D Sports</channel>
+  <channel site="directv.com.ar" site_id="612#DTS2" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/612.png" xmltv_id="dsports2.latam">D Sports 2</channel>
+  <channel site="directv.com.ar" site_id="179#DTS+" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/613.png" xmltv_id="dsportsplus.latam">D Sports Plus</channel>
+  <channel site="directv.com.ar" site_id="4576#DTSF" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/615.png" xmltv_id="dsportsfight.latam">D Sports Fight</channel>
 </channels>
