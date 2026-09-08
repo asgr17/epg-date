@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
- <channel site="pluto.tv" lang="en" xmltv_id="" site_id="63a0e33a45264d000850ed7e">Golazo Network</channel>
+ <channel site="tataplay.com" site_id="1489" lang="en" xmltv_id="">Tata Play Fancode Sports</channel>
+ <channel site="tataplay.com" site_id="1786" lang="en" xmltv_id="">Tata Play Fancode Sports +1</channel>
 </channels>
