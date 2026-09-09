@@ -13,20 +13,32 @@ jobs:
       contents: write
 
     steps:
+      # =========================
+      # Checkout
+      # =========================
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # =========================
+      # Setup Node.js
+      # =========================
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
 
+      # =========================
+      # Install dependencies
+      # =========================
       - name: Install Dependencies
         run: npm ci
 
+      # =========================
+      # Grab EPG
+      # =========================
       - name: Grab Combined EPG
         run: |
           npm run grab -- \
@@ -41,15 +53,19 @@ jobs:
       # =========================
       - name: Translate Hebrew EPG
         run: |
-          pip install deep-translator lxml
+          pip install -q deep-translator lxml
 
           python3 <<'PY'
           from lxml import etree
           from deep_translator import GoogleTranslator
           import time
+          import re
 
           FILE = "guidetest-en.xml"
 
+          # =========================
+          # XML parser
+          # =========================
           parser = etree.XMLParser(
               remove_blank_text=False,
               recover=True
@@ -58,53 +74,139 @@ jobs:
           tree = etree.parse(FILE, parser)
           root = tree.getroot()
 
-          # deep-translator menggunakan "iw" untuk Hebrew
+          # =========================
+          # Translator
+          # =========================
           translator = GoogleTranslator(
               source="iw",
               target="en"
           )
 
-          translated = 0
-          failed = 0
+          # =========================
+          # Detect Hebrew
+          # =========================
+          def contains_hebrew(text):
+              if not text:
+                  return False
 
-          # HANYA proses title/desc yang masih lang="he"
+              return bool(
+                  re.search(r'[\u0590-\u05FF]', text)
+              )
+
+          # =========================
+          # Translate with retry
+          # =========================
+          def translate_with_retry(text, retries=5):
+
+              for attempt in range(1, retries + 1):
+
+                  try:
+                      result = translator.translate(text)
+
+                      if (
+                          result
+                          and result.strip()
+                          and result.strip() != text.strip()
+                      ):
+                          return result.strip()
+
+                      print(
+                          f"  Attempt {attempt}: "
+                          "empty/unchanged result"
+                      )
+
+                  except Exception as e:
+
+                      print(
+                          f"  Attempt {attempt}/{retries} failed: "
+                          f"{str(e)[:200]}"
+                      )
+
+                  # Increasing delay
+                  delay = min(attempt * 3, 15)
+
+                  print(
+                      f"  Waiting {delay}s before retry..."
+                  )
+
+                  time.sleep(delay)
+
+              return None
+
+          # =========================
+          # Find ALL title + desc
+          # =========================
           elements = root.xpath(
-              '//title[@lang="he"] | //desc[@lang="he"]'
+              '//title | //desc'
           )
 
-          print(f"Found {len(elements)} Hebrew elements")
+          print(
+              f"Checking {len(elements)} title/desc elements..."
+          )
 
-          for element in elements:
+          translated = 0
+          skipped = 0
+          failed = 0
+
+          # =========================
+          # Process
+          # =========================
+          for index, element in enumerate(elements, 1):
+
               text = element.text
 
+              # Empty
               if not text or not text.strip():
+                  skipped += 1
                   continue
 
-              # Pastikan memang mengandung karakter Hebrew
-              if not any('\u0590' <= c <= '\u05FF' for c in text):
+              # Only Hebrew
+              if not contains_hebrew(text):
+                  skipped += 1
                   continue
 
-              try:
-                  print(f"Translating: {text[:100]}")
+              print("")
+              print(
+                  f"[{index}/{len(elements)}] Translating:"
+              )
+              print(
+                  f"  {text[:250]}"
+              )
 
-                  result = translator.translate(text)
+              result = translate_with_retry(text)
 
-                  if result and result.strip():
-                      element.text = result
-                      element.set("lang", "en")
+              if result:
 
-                      translated += 1
+                  # Save translation
+                  element.text = result
 
-                      print(f"→ {result[:100]}")
+                  # Only NOW change language
+                  element.set("lang", "en")
 
-                  # Beri jeda kecil agar tidak terlalu cepat request
-                  time.sleep(0.2)
+                  translated += 1
 
-              except Exception as e:
+                  print("  → SUCCESS:")
+                  print(
+                      f"  {result[:250]}"
+                  )
+
+              else:
+
+                  # IMPORTANT:
+                  # Do NOT modify original text
+                  # and do NOT change lang
                   failed += 1
-                  print(f"Translation failed: {e}")
-                  continue
 
+                  print(
+                      "  → FAILED: keeping original text"
+                  )
+
+              # Small delay between successful requests
+              time.sleep(0.5)
+
+          # =========================
+          # Save XML
+          # =========================
           tree.write(
               FILE,
               encoding="UTF-8",
@@ -112,12 +214,37 @@ jobs:
               pretty_print=False
           )
 
+          # =========================
+          # Summary
+          # =========================
           print("")
-          print("================================")
-          print(f"Total Hebrew elements : {len(elements)}")
-          print(f"Translated            : {translated}")
-          print(f"Failed                : {failed}")
-          print("================================")
+          print("========================================")
+          print("         TRANSLATION SUMMARY")
+          print("========================================")
+          print(
+              f"Total elements checked : {len(elements)}"
+          )
+          print(
+              f"Translated             : {translated}"
+          )
+          print(
+              f"Skipped                : {skipped}"
+          )
+          print(
+              f"Failed                 : {failed}"
+          )
+          print("========================================")
+
+          if failed > 0:
+              print("")
+              print(
+                  "WARNING: Some Hebrew texts could not "
+                  "be translated."
+              )
+              print(
+                  "They were intentionally left unchanged."
+              )
+
           PY
 
       # =========================
@@ -131,7 +258,8 @@ jobs:
           git add guidetest-en.xml
 
           git diff --cached --quiet || \
-            git commit -m "🔄 Auto Update Combined EPG: $(date '+%Y-%m-%d %H:%M UTC')"
+            git commit \
+              -m "🔄 Auto Update Combined EPG: $(date '+%Y-%m-%d %H:%M UTC')"
 
           git pull --rebase origin master
           git push
