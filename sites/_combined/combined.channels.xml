@@ -280,11 +280,11 @@
   <channel site="orangetv.orange.es" site_id="12052" lang="es" xmltv_id="realmadridtv">Real Madrid</channel>
   <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="tntsports4.uk" site_id="1405">TNT Sports 4</channel>
   <channel site="web.magentatv.de" site_id="194" lang="de" xmltv_id="sportdigitalfussball.de">SPORTDIGITAL FUSSBALL</channel>
-  <channel site="directv.com.ar" site_id="1610#DTSAHD" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/1610.png" xmltv_id="dsports.latam">D Sports</channel>
-  <channel site="directv.com.ar" site_id="612#DTS2" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/612.png" xmltv_id="dsports2.latam">D Sports 2</channel>
-  <channel site="directv.com.ar" site_id="179#DTS+" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/613.png" xmltv_id="dsportsplus.latam">D Sports Plus</channel>
-  <channel site="directv.com.ar" site_id="4576#DTSF" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/615.png" xmltv_id="dsportsfight.latam">D Sports Fight</channel>
   <channel site="pluto.tv" lang="en" xmltv_id="cbsgolazo" site_id="63a0e33a45264d000850ed7e">CBS Sports Golazo</channel>
   <channel site="tataplay.com" site_id="1489" lang="en" xmltv_id="fancode1">Fancode Live 1</channel>
   <channel site="tataplay.com" site_id="1786" lang="en" xmltv_id="fancode2">Fancode Live 2</channel>
+  <channel site="directv.com.ar" lang="es" xmltv_id="dsports.latam" site_id="1610#DTSAHD">D Sports</channel>
+  <channel site="directv.com.ar" lang="es" xmltv_id="dsports2.latam" site_id="1612#DTV2HD">D Sports 2</channel>
+  <channel site="directv.com.ar" lang="es" xmltv_id="dsportsplus.latam" site_id="1613#DTS+HD">D Sports Plus</channel>
+  <channel site="directv.com.ar" lang="es" xmltv_id="dsportsfight.latam" site_id="1620#DTSFHD">D Sports Fight</channel>
 </channels>
