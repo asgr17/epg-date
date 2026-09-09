@@ -40,7 +40,7 @@ jobs:
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "action@github.com"
 
-          git add guide.xml
+          git add guidetest.xml
           git diff --cached --quiet || git commit -m "🔄 Auto Update Combined EPG: $(date '+%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin master
           git push
