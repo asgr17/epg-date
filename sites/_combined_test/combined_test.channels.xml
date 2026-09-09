@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="osn.com" site_id="9069" lang="ar" xmltv_id="AbuDhabiSports1.ae@SD">AD Sports 1 HD</channel>
+    <channel update="i" site="starzplay.com" site_id="en##admnadsports2" xmltv_id="en: Abu Dhabi Sports 2">en: Abu Dhabi Sports 2</channel>
+    <channel update="i" site="starzplay.com" site_id="en##admnabudhabichannel" xmltv_id="en: Abu Dhabi TV">en: Abu Dhabi TV</channel>
 </channels>
