@@ -1,0 +1,109 @@
+name: Combined Test
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  grab-combined-epg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Grab Combined EPG
+        run: |
+          npm run grab -- \
+            --channels=sites/_combined_test/combined_test.channels.xml \
+            --output=guidetest-en.xml \
+            --days=3
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
+
+      # =========================
+      # Translate Hebrew → English
+      # =========================
+      - name: Translate Hebrew EPG
+        run: |
+          pip install deep-translator lxml
+
+          python3 <<'PY'
+          from lxml import etree
+          from deep_translator import GoogleTranslator
+
+          FILE = "guidetest-en.xml"
+
+          parser = etree.XMLParser(
+              remove_blank_text=False,
+              recover=True
+          )
+
+          tree = etree.parse(FILE, parser)
+          root = tree.getroot()
+
+          translator = GoogleTranslator(source='he', target='en')
+
+          translated = 0
+
+          for element in root.xpath(
+              '//title[@lang="he"] | //desc[@lang="he"] | '
+              '//title[@lang="en"] | //desc[@lang="en"]'
+          ):
+              text = element.text
+
+              if not text or not text.strip():
+                  continue
+
+              # Hanya terjemahkan teks yang mengandung karakter Hebrew
+              if not any('\u0590' <= c <= '\u05FF' for c in text):
+                  continue
+
+              try:
+                  result = translator.translate(text)
+
+                  if result:
+                      element.text = result
+                      element.set("lang", "en")
+                      translated += 1
+
+                      print(f"Translated: {text[:60]}...")
+              except Exception as e:
+                  print(f"Translation failed: {e}")
+
+          tree.write(
+              FILE,
+              encoding="UTF-8",
+              xml_declaration=True,
+              pretty_print=False
+          )
+
+          print(f"Total translated: {translated}")
+          PY
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+
+          git add guidetest-en.xml
+
+          git diff --cached --quiet || \
+            git commit -m "🔄 Auto Update Combined EPG: $(date '+%Y-%m-%d %H:%M UTC')"
+
+          git pull --rebase origin master
+          git push
