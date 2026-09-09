@@ -227,10 +227,6 @@
   <channel site="epgshare01.online" site_id="MN1#PSN4.mn" lang="en" xmltv_id="psn.premiersports4.mn">PSN 4</channel>
   <channel site="epgshare01.online" site_id="MN1#PSN5.mn" lang="en" xmltv_id="psn.premiersports5.mn">PSN 5</channel>
   <channel site="clarotvmais.com.br" site_id="9" lang="pt" xmltv_id="izzi-tnt.mx">TNT HD</channel>
-  <channel site="epgshare01.online" site_id="ID1#HBO.HD.id" lang="en" xmltv_id="hbo.id">HBO HD</channel>
-  <channel site="epgshare01.online" site_id="ID1#HBO.Hits.HD.id" lang="en" xmltv_id="hbohits.id">HBO Hits</channel>
-  <channel site="epgshare01.online" site_id="ID1#HBO.Family.HD.id" lang="en" xmltv_id="hbofamily.id">HBO Family</channel>
-  <channel site="epgshare01.online" site_id="ID1#HBO.Signature.HD.id" lang="en" xmltv_id="hbosignature.id">HBO Signature</channel>
   <channel site="epgshare01.online" site_id="ID1#Warner.id" lang="en" xmltv_id="warner.id">warner</channel>
   <channel site="epgshare01.online" site_id="ID1#Cinemax.HD.id" lang="en" xmltv_id="cinemax.id">Cinemax HD</channel>
   <channel site="epgshare01.online" site_id="ID1#CINEEDGE.id" lang="en" xmltv_id="cineedge.id">Cineedge</channel>
@@ -274,7 +270,6 @@
   <channel site="go3tv.lt" lang="ee" xmltv_id="go3sport1.ee" site_id="4296024">Go3 Sport 1</channel>
   <channel site="go3tv.lt" lang="ee" xmltv_id="go3sport2.ee" site_id="4231570">Go3 Sport 2</channel>
   <channel site="go3tv.lt" lang="ee" xmltv_id="go3sport3.ee" site_id="4150367">Go3 Sport 3</channel>
-  <channel site="orangetv.orange.es" site_id="2047" lang="es" xmltv_id="barcatv">Barca TV</channel>
   <channel site="orangetv.orange.es" site_id="1036" lang="es" xmltv_id="tv3catalunya">TV3 Catalunya</channel>
   <channel site="orangetv.orange.es" site_id="12052" lang="es" xmltv_id="realmadridtv">Real Madrid</channel>
   <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="tntsports4.uk" site_id="1405">TNT Sports 4</channel>
