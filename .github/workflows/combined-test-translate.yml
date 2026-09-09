@@ -1,4 +1,4 @@
-name: Combined Test
+name: Combined Test translate
 
 on:
   schedule:
