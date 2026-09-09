@@ -53,19 +53,55 @@ jobs:
       # =========================
       - name: Translate Hebrew EPG
         run: |
-          pip install -q deep-translator lxml
+          pip install -q argostranslate lxml
 
           python3 <<'PY'
           from lxml import etree
-          from deep_translator import GoogleTranslator
-          import time
+          import argostranslate.package
+          import argostranslate.translate
           import re
 
           FILE = "guidetest-en.xml"
 
-          # =========================
-          # XML parser
-          # =========================
+          # =====================================================
+          # Install Hebrew → English Argos model
+          # =====================================================
+
+          print("Updating Argos package index...")
+
+          argostranslate.package.update_package_index()
+
+          packages = argostranslate.package.get_available_packages()
+
+          package = next(
+              (
+                  p for p in packages
+                  if p.from_code == "he"
+                  and p.to_code == "en"
+              ),
+              None
+          )
+
+          if package is None:
+              raise RuntimeError(
+                  "Hebrew → English Argos model tidak ditemukan."
+              )
+
+          print(
+              f"Installing model: "
+              f"{package.from_code} → {package.to_code}"
+          )
+
+          argostranslate.package.install_from_path(
+              package.download()
+          )
+
+          print("Argos Hebrew → English ready.")
+
+          # =====================================================
+          # Load XML
+          # =====================================================
+
           parser = etree.XMLParser(
               remove_blank_text=False,
               recover=True
@@ -74,17 +110,10 @@ jobs:
           tree = etree.parse(FILE, parser)
           root = tree.getroot()
 
-          # =========================
-          # Translator
-          # =========================
-          translator = GoogleTranslator(
-              source="iw",
-              target="en"
-          )
-
-          # =========================
+          # =====================================================
           # Detect Hebrew
-          # =========================
+          # =====================================================
+
           def contains_hebrew(text):
               if not text:
                   return False
@@ -93,120 +122,148 @@ jobs:
                   re.search(r'[\u0590-\u05FF]', text)
               )
 
-          # =========================
-          # Translate with retry
-          # =========================
-          def translate_with_retry(text, retries=5):
+          # =====================================================
+          # Translation cache
+          #
+          # Teks yang sama hanya diterjemahkan sekali.
+          # =====================================================
 
-              for attempt in range(1, retries + 1):
+          cache = {}
 
-                  try:
-                      result = translator.translate(text)
+          translated = 0
+          cached = 0
+          skipped = 0
+          failed = 0
 
-                      if (
-                          result
-                          and result.strip()
-                          and result.strip() != text.strip()
-                      ):
-                          return result.strip()
-
-                      print(
-                          f"  Attempt {attempt}: "
-                          "empty/unchanged result"
-                      )
-
-                  except Exception as e:
-
-                      print(
-                          f"  Attempt {attempt}/{retries} failed: "
-                          f"{str(e)[:200]}"
-                      )
-
-                  # Increasing delay
-                  delay = min(attempt * 3, 15)
-
-                  print(
-                      f"  Waiting {delay}s before retry..."
-                  )
-
-                  time.sleep(delay)
-
-              return None
-
-          # =========================
+          # =====================================================
           # Find ALL title + desc
-          # =========================
+          # =====================================================
+
           elements = root.xpath(
               '//title | //desc'
           )
 
+          print("")
           print(
-              f"Checking {len(elements)} title/desc elements..."
+              f"Found {len(elements)} title/desc elements."
           )
+          print("")
 
-          translated = 0
-          skipped = 0
-          failed = 0
+          # =====================================================
+          # Process elements
+          # =====================================================
 
-          # =========================
-          # Process
-          # =========================
           for index, element in enumerate(elements, 1):
 
               text = element.text
 
-              # Empty
+              # Tidak ada teks
               if not text or not text.strip():
                   skipped += 1
                   continue
 
-              # Only Hebrew
+              text = text.strip()
+
+              # Hanya proses teks yang mengandung Hebrew
               if not contains_hebrew(text):
                   skipped += 1
                   continue
 
-              print("")
               print(
-                  f"[{index}/{len(elements)}] Translating:"
-              )
-              print(
-                  f"  {text[:250]}"
+                  f"[{index}/{len(elements)}] "
+                  f"Hebrew detected:"
               )
 
-              result = translate_with_retry(text)
+              print(
+                  f"  {text[:300]}"
+              )
 
-              if result:
+              # =================================================
+              # CACHE
+              # =================================================
 
-                  # Save translation
-                  element.text = result
+              if text in cache:
 
-                  # Only NOW change language
-                  element.set("lang", "en")
+                  result = cache[text]
 
-                  translated += 1
+                  if result:
+                      element.text = result
+                      element.set("lang", "en")
 
-                  print("  → SUCCESS:")
-                  print(
-                      f"  {result[:250]}"
+                      translated += 1
+                      cached += 1
+
+                      print("  → CACHE:")
+                      print(
+                          f"  {result[:300]}"
+                      )
+
+                  else:
+                      failed += 1
+
+                  print("")
+                  continue
+
+              # =================================================
+              # TRANSLATE
+              # =================================================
+
+              try:
+
+                  result = argostranslate.translate.translate(
+                      text,
+                      "he",
+                      "en"
                   )
 
-              else:
+                  if (
+                      result
+                      and result.strip()
+                      and result.strip() != text
+                  ):
 
-                  # IMPORTANT:
-                  # Do NOT modify original text
-                  # and do NOT change lang
+                      result = result.strip()
+
+                      # Simpan ke cache
+                      cache[text] = result
+
+                      # Simpan hasil ke XML
+                      element.text = result
+                      element.set("lang", "en")
+
+                      translated += 1
+
+                      print("  → SUCCESS:")
+                      print(
+                          f"  {result[:300]}"
+                      )
+
+                  else:
+
+                      cache[text] = None
+
+                      failed += 1
+
+                      print(
+                          "  → FAILED: empty or unchanged result"
+                      )
+
+              except Exception as e:
+
+                  cache[text] = None
+
                   failed += 1
 
                   print(
-                      "  → FAILED: keeping original text"
+                      f"  → FAILED: {str(e)[:300]}"
                   )
 
-              # Small delay between successful requests
-              time.sleep(0.5)
+              print("")
 
-          # =========================
+          # =====================================================
           # Save XML
-          # =========================
+          # =====================================================
+
           tree.write(
               FILE,
               encoding="UTF-8",
@@ -214,36 +271,33 @@ jobs:
               pretty_print=False
           )
 
-          # =========================
+          # =====================================================
           # Summary
-          # =========================
+          # =====================================================
+
           print("")
           print("========================================")
-          print("         TRANSLATION SUMMARY")
+          print("       ARGOS TRANSLATION SUMMARY")
           print("========================================")
           print(
-              f"Total elements checked : {len(elements)}"
+              f"Elements checked : {len(elements)}"
           )
           print(
-              f"Translated             : {translated}"
+              f"Translated       : {translated}"
           )
           print(
-              f"Skipped                : {skipped}"
+              f"From cache       : {cached}"
           )
           print(
-              f"Failed                 : {failed}"
+              f"Skipped          : {skipped}"
+          )
+          print(
+              f"Failed           : {failed}"
+          )
+          print(
+              f"Unique Hebrew    : {len(cache)}"
           )
           print("========================================")
-
-          if failed > 0:
-              print("")
-              print(
-                  "WARNING: Some Hebrew texts could not "
-                  "be translated."
-              )
-              print(
-                  "They were intentionally left unchanged."
-              )
 
           PY
 
