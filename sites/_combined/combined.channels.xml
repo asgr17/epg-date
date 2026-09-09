@@ -280,7 +280,6 @@
   <channel site="orangetv.orange.es" site_id="12052" lang="es" xmltv_id="realmadridtv">Real Madrid</channel>
   <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="tntsports4.uk" site_id="1405">TNT Sports 4</channel>
   <channel site="web.magentatv.de" site_id="194" lang="de" xmltv_id="sportdigitalfussball.de">SPORTDIGITAL FUSSBALL</channel>
-  <channel site="directv.com.ar" site_id="1099#DTSAHD" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/1610.png" xmltv_id="dsports.latam">D Sports</channel>
   <channel site="directv.com.ar" site_id="1610#DTSAHD" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/1610.png" xmltv_id="dsports.latam">D Sports</channel>
   <channel site="directv.com.ar" site_id="612#DTS2" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/612.png" xmltv_id="dsports2.latam">D Sports 2</channel>
   <channel site="directv.com.ar" site_id="179#DTS+" lang="es" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/AR/613.png" xmltv_id="dsportsplus.latam">D Sports Plus</channel>
