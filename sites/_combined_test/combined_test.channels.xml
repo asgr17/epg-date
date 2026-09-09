@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="tv.blue.ch" site_id="2049" lang="it" xmltv_id="SportitaliaSolocalcio.it@SD">SI Solocalcio</channel>
-  <channel site="tv.blue.ch" site_id="1387" lang="it" xmltv_id="Sportitalia.it@SD">SPORTITALIA</channel>
-  <channel site="tv.blue.ch" site_id="2028" lang="it" xmltv_id="RaiItalia.it@EuropeAfrica">RAI Italia</channel>
-  <channel site="tv.blue.ch" site_id="2032" lang="it" xmltv_id="InterTV.it@SD">Inter TV</channel>
+    <channel lang="ar" xmltv_id="AbuDhabiEmirates.ae" site_id="1#38#الامارات">الامارات</channel>
+    <channel lang="ar" xmltv_id="AbuDhabiSports1.ae" site_id="1#38#أبو ظبي الرياضية 1">أبو ظبي الرياضية 1</channel>
+    <channel lang="ar" xmltv_id="AbuDhabiSports2.ae" site_id="1#38#أبو ظبي الرياضية 2">أبو ظبي الرياضية 2</channel>
+    <channel lang="ar" xmltv_id="AbuDhabiTV.ae" site_id="1#38#أبو ظبي تي في">أبو ظبي تي في</channel>
 </channels>
