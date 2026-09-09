@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-    <channel lang="ar" xmltv_id="AbuDhabiEmirates.ae" site_id="1#38#الامارات">الامارات</channel>
-    <channel lang="ar" xmltv_id="AbuDhabiSports1.ae" site_id="1#38#أبو ظبي الرياضية 1">أبو ظبي الرياضية 1</channel>
-    <channel lang="ar" xmltv_id="AbuDhabiSports2.ae" site_id="1#38#أبو ظبي الرياضية 2">أبو ظبي الرياضية 2</channel>
-    <channel lang="ar" xmltv_id="AbuDhabiTV.ae" site_id="1#38#أبو ظبي تي في">أبو ظبي تي في</channel>
+  <channel site="osn.com" site_id="9069" lang="ar" xmltv_id="AbuDhabiSports1.ae@SD">AD Sports 1 HD</channel>
 </channels>
