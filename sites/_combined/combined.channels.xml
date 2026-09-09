@@ -146,7 +146,6 @@
   <channel site="visionplus.id" site_id="00000000000000001012" lang="id" xmltv_id="vpluslive3.id">V+ LIVE 3</channel>
   <channel site="visionplus.id" site_id="00000000000000001013" lang="id" xmltv_id="vpluslive4.id">V+ LIVE 4</channel>
   <channel site="visionplus.id" site_id="00000000000000001014" lang="id" xmltv_id="vpluslive5.id">V+ LIVE 5</channel>
-  <channel site="dens.tv" site_id="137" lang="id" xmltv_id="jowo.id">Jowo</channel>
   <channel site="rtmklik.rtm.gov.my" site_id="1" lang="ms" xmltv_id="rtmtv1.my">TV1</channel>
   <channel site="rtmklik.rtm.gov.my" site_id="2" lang="ms" xmltv_id="rtmtv2.my">TV2</channel>
   <channel site="rtmklik.rtm.gov.my" site_id="3" lang="ms" xmltv_id="rtmokey.my">Okey</channel>
