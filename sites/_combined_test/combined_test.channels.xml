@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<channels>
   <channel site="tv.blue.ch" site_id="1554" lang="de" xmltv_id="SportdigitalFUSSBALL.de@SD">SPORTDIGITAL FUSSBALL</channel>
   <channel site="tv.blue.ch" site_id="2100" lang="de" xmltv_id="SportdigitalFUSSBALL2.de@HD">SPORTDIGITAL FUSSBALL 2</channel>
   <channel site="tv.blue.ch" site_id="338" lang="it" xmltv_id="RaiSport.it@HD">Rai Sport +</channel>
