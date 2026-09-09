@@ -279,12 +279,16 @@
   <channel site="pluto.tv" lang="en" xmltv_id="cbsgolazo" site_id="63a0e33a45264d000850ed7e">CBS Sports Golazo</channel>
   <channel site="tataplay.com" site_id="1489" lang="en" xmltv_id="fancode1">Fancode Live 1</channel>
   <channel site="tataplay.com" site_id="1786" lang="en" xmltv_id="fancode2">Fancode Live 2</channel>
-  <channel site="directv.com.ar" lang="es" xmltv_id="dsports.latam" site_id="1610#DTSAHD">D Sports</channel>
-  <channel site="directv.com.ar" lang="es" xmltv_id="dsports2.latam" site_id="1612#DTV2HD">D Sports 2</channel>
-  <channel site="directv.com.ar" lang="es" xmltv_id="dsportsplus.latam" site_id="1613#DTS+HD">D Sports Plus</channel>
-  <channel site="directv.com.ar" lang="es" xmltv_id="dsportsfight.latam" site_id="1620#DTSFHD">D Sports Fight</channel>
   <channel site="tv.blue.ch" site_id="2049" lang="it" xmltv_id="sisolocalcio.it">Si Solocalcio</channel>
   <channel site="tv.blue.ch" site_id="1387" lang="it" xmltv_id="sportitalia.it">Sport Italia</channel>
   <channel site="tv.blue.ch" site_id="2028" lang="it" xmltv_id="raisport.it">RAI Sport</channel>
   <channel site="tv.blue.ch" site_id="2032" lang="it" xmltv_id="intermilantv.it">Inter Milan TV</channel>
+  <channel site="dazn.com" site_id="1vi4p39obt24i1dtsmthi921tl" lang="de" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DAZN-FAST_PLUS/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="daznfast">DAZN FAST+</channel>
+  <channel site="dazn.com" site_id="1xx7lone8fvv21a2rpc5cji3jx" lang="de" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DAZN_RISE/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="daznrise">DAZN RISE</channel>
+  <channel site="dazn.com" site_id="ad#1lzunolspegkh1fot7zxtt5f85" lang="en" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_Unbeaten/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="unbeaten.ca">Unbeaten</channel>
+  <channel site="dazn.com" site_id="cl#ol1hs0623ca1q416h50ukpoa" lang="es" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DSports_TV/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="dsports.latam">DSPORTS</channel>
+  <channel site="dazn.com" site_id="cl#1iv7stnm5m5751dpyxhe42siyt" lang="es" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DSports_2_TV/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="dsports2.latam">DSPORTS 2</channel>
+  <channel site="dazn.com" site_id="cl#q9cb6hh0qgrk1hhd0nyojccbl" lang="es" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DSports_Plus_TV/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="dsportsplus.latam">DSPORTS +</channel>
+  <channel site="dazn.com" site_id="it#xkl4tjojz1s7zrvhrly6sy2n" lang="it" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_Milan_TV/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="milantv.it">Milan TV</channel>
+  <channel site="dazn.com" site_id="es#1uwq82jpc6ai618kxcuq03qfjp" lang="es" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_Rally_TV/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="rallytv">Rally TV</channel>
 </channels>
