@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-    <channel site="dazn.com" site_id="1vi4p39obt24i1dtsmthi921tl" lang="de" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DAZN-FAST_PLUS/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">DAZN FAST+</channel>
-    <channel site="dazn.com" site_id="1xx7lone8fvv21a2rpc5cji3jx" lang="de" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DAZN_RISE/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">DAZN RISE</channel>
-    <channel site="dazn.com" site_id="zcibmuh516p01lduzfsnbw2pj" lang="de" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_SDF/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">SPORTDIGITAL FUSSBALL</channel>
-    <channel site="dazn.com" site_id="ad#1lzunolspegkh1fot7zxtt5f85" lang="en" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_Unbeaten/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">Unbeaten</channel>
-    <channel site="dazn.com" site_id="us#ta9r7upeuzb1koxdxu1g5br3" lang="en" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_FUBO_TV/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">Fubo Sports</channel>
-    <channel site="dazn.com" site_id="cl#1iv7stnm5m5751dpyxhe42siyt" lang="es" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DSports_2_TV/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">DSPORTS 2</channel>
-    <channel site="dazn.com" site_id="cl#ol1hs0623ca1q416h50ukpoa" lang="es" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DSports_TV/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">DSPORTS</channel>
-    <channel site="dazn.com" site_id="cl#q9cb6hh0qgrk1hhd0nyojccbl" lang="es" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DSports_Plus_TV/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">DSPORTS +</channel>
-    <channel site="dazn.com" site_id="co#j3t3bm9a24oj1haqi4i0171r8" lang="es" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DSports_TV/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">DSPORTS</channel>
-    <channel site="dazn.com" site_id="ec#we4ieg5z0tmb1mormwniih1ms" lang="es" logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_DSports_TV/contain/center/center/none/80/68/56/png/image?brand=dazn" xmltv_id="">DSPORTS</channel>
+    <channel site="yes.co.il" site_id="PT26" lang="he" xmltv_id="">Sport 5 HD (55)</channel>
+    <channel site="yes.co.il" site_id="PT62" lang="he" xmltv_id="">Sport 5 Live HD (58)</channel>
+    <channel site="yes.co.il" site_id="CH54" lang="he" xmltv_id="">Sport 5+ HD (56)</channel>
+    <channel site="yes.co.il" site_id="CH55" lang="he" xmltv_id="">Sport 5 4K</channel>
+    <channel site="yes.co.il" site_id="CH56" lang="he" xmltv_id="">Sport 5 Stars HD (59)</channel>
+    <channel site="yes.co.il" site_id="MU03" lang="he" xmltv_id="">Sport 5 Gold (57)</channel>
+    <channel site="yes.co.il" site_id="TR01" lang="he" xmltv_id="">ONE HD</channel>
+    <channel site="yes.co.il" site_id="CH58" lang="he" xmltv_id="">ONE2 HD</channel>
+    <channel site="yes.co.il" site_id="CH30" lang="he" xmltv_id="">Kan HD</channel>
+    <channel site="yes.co.il" site_id="CH32" lang="he" xmltv_id="">Makan</channel>
 </channels>
