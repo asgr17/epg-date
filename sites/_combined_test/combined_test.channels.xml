@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-    <channel site="yes.co.il" site_id="PT26" lang="he" xmltv_id="">Sport 5 HD (55)</channel>
-    <channel site="yes.co.il" site_id="PT62" lang="he" xmltv_id="">Sport 5 Live HD (58)</channel>
-    <channel site="yes.co.il" site_id="CH54" lang="he" xmltv_id="">Sport 5+ HD (56)</channel>
-    <channel site="yes.co.il" site_id="CH55" lang="he" xmltv_id="">Sport 5 4K</channel>
-    <channel site="yes.co.il" site_id="CH56" lang="he" xmltv_id="">Sport 5 Stars HD (59)</channel>
-    <channel site="yes.co.il" site_id="MU03" lang="he" xmltv_id="">Sport 5 Gold (57)</channel>
-    <channel site="yes.co.il" site_id="TR01" lang="he" xmltv_id="">ONE HD</channel>
-    <channel site="yes.co.il" site_id="CH58" lang="he" xmltv_id="">ONE2 HD</channel>
-    <channel site="yes.co.il" site_id="CH30" lang="he" xmltv_id="">Kan HD</channel>
-    <channel site="yes.co.il" site_id="CH32" lang="he" xmltv_id="">Makan</channel>
+    <channel site="freetv.tv" site_id="3343512" xmltv_id="SPORT5">SPORT5</channel>
+    <channel site="freetv.tv" site_id="3357261" xmltv_id="SPORT 5 PLUS">SPORT 5 PLUS</channel>
+    <channel site="freetv.tv" site_id="3357262" xmltv_id="SPORT 5 GOLD">SPORT 5 GOLD</channel>
+    <channel site="freetv.tv" site_id="3407570" xmltv_id="Sport 5 Live">Sport 5 Live</channel>
+    <channel site="freetv.tv" site_id="3407571" xmltv_id="Sport 5 Stars">Sport 5 Stars</channel>
+    <channel site="freetv.tv" site_id="3367345" xmltv_id="SPORT 5 4K">SPORT 5 4K</channel>
+    <channel site="freetv.tv" site_id="3502701" xmltv_id="ONE 1">ONE 1</channel>
+    <channel site="freetv.tv" site_id="3502702" xmltv_id="ONE 2">ONE 2</channel>
+    <channel site="freetv.tv" site_id="3370462" lang="he" xmltv_id="Kan11.il@SD">כאן 11</channel>
+    <channel site="freetv.tv" site_id="3370497" lang="he" xmltv_id="KanEducational.il@SD">חינוכית</channel>
+    <channel site="freetv.tv" site_id="3371021" lang="ar" xmltv_id="Makan33.il@SD">مكان</channel>
+    <channel site="freetv.tv" site_id="3457869" lang="he" xmltv_id="Now14.il@SD">ערוץ 14</channel>
 </channels>
