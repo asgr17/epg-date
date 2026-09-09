@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-    <channel site="freetv.tv" site_id="3343512" lang="en" xmltv_id="SPORT5">SPORT5</channel>
-    <channel site="freetv.tv" site_id="3357261" lang="en" xmltv_id="SPORT 5 PLUS">SPORT 5 PLUS</channel>
-    <channel site="freetv.tv" site_id="3357262" lang="en" xmltv_id="SPORT 5 GOLD">SPORT 5 GOLD</channel>
-    <channel site="freetv.tv" site_id="3407570" lang="en" xmltv_id="Sport 5 Live">Sport 5 Live</channel>
-    <channel site="freetv.tv" site_id="3407571" lang="en" xmltv_id="Sport 5 Stars">Sport 5 Stars</channel>
-    <channel site="freetv.tv" site_id="3367345" lang="en" xmltv_id="SPORT 5 4K">SPORT 5 4K</channel>
-    <channel site="freetv.tv" site_id="3502701" lang="en" xmltv_id="ONE 1">ONE 1</channel>
-    <channel site="freetv.tv" site_id="3502702" lang="en" xmltv_id="ONE 2">ONE 2</channel>
-    <channel site="freetv.tv" site_id="3370462" lang="en" xmltv_id="Kan11.il@SD">כאן 11</channel>
-    <channel site="freetv.tv" site_id="3370497" lang="en" xmltv_id="KanEducational.il@SD">חינוכית</channel>
-    <channel site="freetv.tv" site_id="3371021" lang="en" xmltv_id="Makan33.il@SD">مكان</channel>
-    <channel site="freetv.tv" site_id="3457869" lang="en" xmltv_id="Now14.il@SD">ערוץ 14</channel>
+    <channel site="freetv.tv" site_id="3343512" lang="he" xmltv_id="SPORT5">SPORT5</channel>
+    <channel site="freetv.tv" site_id="3357261" lang="he" xmltv_id="SPORT 5 PLUS">SPORT 5 PLUS</channel>
+    <channel site="freetv.tv" site_id="3357262" lang="he" xmltv_id="SPORT 5 GOLD">SPORT 5 GOLD</channel>
+    <channel site="freetv.tv" site_id="3407570" lang="he" xmltv_id="Sport 5 Live">Sport 5 Live</channel>
+    <channel site="freetv.tv" site_id="3407571" lang="he" xmltv_id="Sport 5 Stars">Sport 5 Stars</channel>
+    <channel site="freetv.tv" site_id="3367345" lang="he" xmltv_id="SPORT 5 4K">SPORT 5 4K</channel>
+    <channel site="freetv.tv" site_id="3502701" lang="he" xmltv_id="ONE 1">ONE 1</channel>
+    <channel site="freetv.tv" site_id="3502702" lang="he" xmltv_id="ONE 2">ONE 2</channel>
+    <channel site="freetv.tv" site_id="3370462" lang="he" xmltv_id="Kan11.il@SD">כאן 11</channel>
+    <channel site="freetv.tv" site_id="3370497" lang="he" xmltv_id="KanEducational.il@SD">חינוכית</channel>
+    <channel site="freetv.tv" site_id="3371021" lang="he" xmltv_id="Makan33.il@SD">مكان</channel>
+    <channel site="freetv.tv" site_id="3457869" lang="he" xmltv_id="Now14.il@SD">ערוץ 14</channel>
 </channels>
