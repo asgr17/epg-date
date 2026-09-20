@@ -277,8 +277,8 @@
   <channel site="tv.blue.ch" site_id="1554" lang="de" xmltv_id="sfussball.de">SPORTDIGITAL FUSSBALL</channel>
   <channel site="tv.blue.ch" site_id="2100" lang="de" xmltv_id="sportdigitalfussball2.de">SPORTDIGITAL FUSSBALL 2</channel>
   <channel site="pluto.tv" lang="en" xmltv_id="cbsgolazo" site_id="63a0e33a45264d000850ed7e">CBS Sports Golazo</channel>
-  <channel site="tataplay.com" site_id="1489" lang="en" xmltv_id="fancode1">Fancode Live 1</channel>
-  <channel site="tataplay.com" site_id="1786" lang="en" xmltv_id="fancode2">Fancode Live 2</channel>
+  <channel site="tataplay.com" site_id="1786" lang="en" xmltv_id="fancode1">Fancode Live 1</channel>
+  <channel site="tataplay.com" site_id="1489" lang="en" xmltv_id="fancode2">Fancode Live 2</channel>
   <channel site="tv.blue.ch" site_id="2049" lang="it" xmltv_id="sisolocalcio.it">Si Solocalcio</channel>
   <channel site="tv.blue.ch" site_id="1387" lang="it" xmltv_id="sportitalia.it">Sport Italia</channel>
   <channel site="tv.blue.ch" site_id="2028" lang="it" xmltv_id="raisport.it">RAI Sport</channel>
