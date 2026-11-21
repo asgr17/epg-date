@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20261120">
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20261121">
 <channel id="SPORT5"><display-name>SPORT5</display-name><url>https://freetv.tv</url></channel>
-<channel id="SPORT 5 PLUS"><display-name>SPORT 5 PLUS</display-name><url>https://freetv.tv</url></channel>
-<channel id="SPORT 5 GOLD"><display-name>SPORT 5 GOLD</display-name><url>https://freetv.tv</url></channel>
-<channel id="Sport 5 Live"><display-name>Sport 5 Live</display-name><url>https://freetv.tv</url></channel>
+<channel id="Now14.il@SD"><display-name>ערוץ 14</display-name><icon src="https://i.imgur.com/Iq2Kb69.png"/><url>https://freetv.tv</url></channel>
+<channel id="Makan33.il@SD"><display-name>مكان</display-name><icon src="https://i.imgur.com/RVtQTed.png"/><url>https://freetv.tv</url></channel>
 <channel id="KanEducational.il@SD"><display-name>חינוכית</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/960px-KanHinuchit.svg.png"/><url>https://freetv.tv</url></channel>
 <channel id="Kan11.il@SD"><display-name>כאן 11</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/960px-Kan11Logo.svg.png"/><url>https://freetv.tv</url></channel>
 <channel id="ONE 2"><display-name>ONE 2</display-name><url>https://freetv.tv</url></channel>
 <channel id="ONE 1"><display-name>ONE 1</display-name><url>https://freetv.tv</url></channel>
 <channel id="SPORT 5 4K"><display-name>SPORT 5 4K</display-name><url>https://freetv.tv</url></channel>
 <channel id="Sport 5 Stars"><display-name>Sport 5 Stars</display-name><url>https://freetv.tv</url></channel>
-<channel id="Makan33.il@SD"><display-name>مكان</display-name><icon src="https://i.imgur.com/RVtQTed.png"/><url>https://freetv.tv</url></channel>
-<channel id="Now14.il@SD"><display-name>ערוץ 14</display-name><icon src="https://i.imgur.com/Iq2Kb69.png"/><url>https://freetv.tv</url></channel>
+<channel id="Sport 5 Live"><display-name>Sport 5 Live</display-name><url>https://freetv.tv</url></channel>
+<channel id="SPORT 5 GOLD"><display-name>SPORT 5 GOLD</display-name><url>https://freetv.tv</url></channel>
+<channel id="SPORT 5 PLUS"><display-name>SPORT 5 PLUS</display-name><url>https://freetv.tv</url></channel>
 </tv>
